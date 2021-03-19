@@ -1,0 +1,8 @@
+# github.com/Jetereting/go_util v0.0.0-20180611033005-1018f88d75d6
+## explicit
+github.com/Jetereting/go_util
+# github.com/astaxie/beego v1.12.3
+## explicit
+github.com/astaxie/beego/httplib
+# gopkg.in/yaml.v2 v2.2.8
+gopkg.in/yaml.v2
