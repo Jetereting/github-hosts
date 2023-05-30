@@ -36,7 +36,6 @@ proxies:
   - {"type":"vmess","name":"🇨🇷_CR_哥斯达黎加_2","ws-opts":{"path":"/qwer10","headers":{"host":"tou.vtcss.top"}},"server":"190.93.245.228","port":2052,"uuid":"0227edc4-8735-4370-ac42-4e8147920f0b","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸_US_美国_16","ws-opts":{"path":"/qwer10","headers":{"host":"tou.vtcss.top"}},"server":"198.41.196.233","port":2052,"uuid":"0227edc4-8735-4370-ac42-4e8147920f0b","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇨🇷_CR_哥斯达黎加_3","ws-opts":{"path":"/qwer10","headers":{"host":"tou.vtcss.top"}},"server":"190.93.245.64","port":2052,"uuid":"0227edc4-8735-4370-ac42-4e8147920f0b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"🇺🇸_US_美国->🇳🇱_NL_荷兰_1","server":"ashcan.aurorainiceland.com","port":443,"uuid":"9c9f7230-c8ff-44d2-93f2-a1febbc23767","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"ashcan.aurorainiceland.com","ws-opts":{"path":"/nimws","headers":{"host":"ashcan.aurorainiceland.com"}}}
   - {"type":"vmess","name":"🇺🇸_US_美国_17","ws-opts":{"path":"/path/1683955693848"},"server":"38.63.0.69","port":443,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇺🇸_US_美国_18","ws-opts":{"path":"/path/080712342310"},"server":"23.224.110.184","port":443,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"🇷🇺_RU_俄罗斯联邦->🇫🇷_FR_法国","server":"cnamemk.ciscocdn1.live","port":443,"password":"3c2504f0-8014-4a68-b49a-a098d8808e61","udp":true,"skip-cert-verify":true,"sni":"c7mk.ciscocdn1.live","network":"ws","ws-opts":{"path":"/BLda1CCMAiWUNnzj51ltOjG4G3"}}
@@ -92,7 +91,6 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇺🇸_US_美国_16
       - 🇨🇷_CR_哥斯达黎加_3
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇷🇺_RU_俄罗斯联邦->🇫🇷_FR_法国
@@ -148,7 +146,6 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇺🇸_US_美国_16
       - 🇨🇷_CR_哥斯达黎加_3
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇷🇺_RU_俄罗斯联邦->🇫🇷_FR_法国
@@ -204,7 +201,6 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇺🇸_US_美国_16
       - 🇨🇷_CR_哥斯达黎加_3
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇷🇺_RU_俄罗斯联邦->🇫🇷_FR_法国
@@ -259,7 +255,6 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇺🇸_US_美国_16
       - 🇨🇷_CR_哥斯达黎加_3
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇷🇺_RU_俄罗斯联邦->🇫🇷_FR_法国
@@ -314,7 +309,6 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇺🇸_US_美国_16
       - 🇨🇷_CR_哥斯达黎加_3
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇷🇺_RU_俄罗斯联邦->🇫🇷_FR_法国
@@ -369,7 +363,6 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇺🇸_US_美国_16
       - 🇨🇷_CR_哥斯达黎加_3
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇷🇺_RU_俄罗斯联邦->🇫🇷_FR_法国
@@ -441,7 +434,6 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加_2
       - 🇺🇸_US_美国_16
       - 🇨🇷_CR_哥斯达黎加_3
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
       - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇷🇺_RU_俄罗斯联邦->🇫🇷_FR_法国
