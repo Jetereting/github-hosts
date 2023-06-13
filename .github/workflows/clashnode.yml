@@ -32,8 +32,8 @@ jobs:
           # 查看第一个句子是否为 port: 7890
           FIRST_LINE=$(head -n 1 temp.yaml)
           if [[ $FIRST_LINE == port:* ]]; then
-          # 如果是,将文件内容写入 clash.yaml
-          cat temp.yaml > clash.yaml
+          # 如果是,将文件内容写入 clashnode.yaml
+          cat temp.yaml > clashnode.yaml
           echo "YAML file downloaded and saved as clash.yaml"
           else
           echo "YAML file did not match the condition. Delete temp.yaml and exit."
