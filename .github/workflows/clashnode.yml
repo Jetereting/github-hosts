@@ -2,7 +2,7 @@ name: clashnode 更新
 on:
   schedule:
     # 每天晚上22点执行一次
-    - cron:  0 * * * *
+    - cron:  0/5 * * * *
 
 jobs:
   cron:
