@@ -35,7 +35,7 @@ jobs:
             # 如果是,将文件内容写入 clash.yaml
             cat temp.yaml > clashnode.yaml
             date=$(date +'%Y-%m-%d')
-            sed -i "s/漏网之鱼/'"$date"'/g" clashnode.yaml
+            sed -i "s/漏网之鱼/"$date"/g" clashnode.yaml
             echo "YAML file downloaded and saved as clash.yaml"
           else
             echo "YAML file did not match the condition. Delete temp.yaml and exit."
