@@ -54,4 +54,5 @@ jobs:
 
       - name: Push changes
         run: |
+          git pull
           git push origin HEAD:$GITHUB_REF
