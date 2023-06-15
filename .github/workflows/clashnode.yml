@@ -54,4 +54,4 @@ jobs:
 
       - name: Push changes
         run: |
-          git push --force origin HEAD:$GITHUB_REF
+          git push -f origin HEAD:$GITHUB_REF
