@@ -22,6 +22,7 @@ jobs:
           YEAR=$(date +%Y)
           MONTH=$(date +%m)
           DAY=$(date +%d)
+          #DAY=16
           
           # 构造 URL
           URL="https://clashnode.com/wp-content/uploads/${YEAR}/${MONTH}/${YEAR}${MONTH}${DAY}.yaml"
@@ -34,18 +35,19 @@ jobs:
           if [[ $FIRST_LINE == port:* ]]; then
             # 如果是,将文件内容写入 clash.yaml
             cat temp.yaml > clashnode.yaml
-            date=$(date +'%Y-%m-%d')
-            sed -i "s/漏网之鱼/"$date"/g" clashnode.yaml
-            echo "YAML file downloaded and saved as clash.yaml"
+            sed -i '1,/type: select/s/type: select/type: load-balance\
+              url: http:\/\/www.gstatic.com\/generate_204\
+              interval: 1200/' clashnode.yaml
+            sed -i "$(awk '/DIRECT/{print NR}' clashnode.yaml|head -n 1) d" clashnode.yaml
+            sed -i "s/节点选择/"$(date +'%Y-%m-%d')"/g" clashnode.yaml
+            echo "YAML file downloaded and saved as clashnode.yaml"
           else
             echo "YAML file did not match the condition. Delete temp.yaml and exit."
             rm temp.yaml
             exit
           fi
-          
           # 删除临时文件 temp.yaml
           rm temp.yaml
-
 
       - name: Add and commit
         run: |
@@ -54,4 +56,4 @@ jobs:
 
       - name: Push changes
         run: |
-          git push -f origin HEAD:$GITHUB_REF
+          git push origin HEAD:$GITHUB_REF
