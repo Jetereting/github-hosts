@@ -36,8 +36,9 @@ jobs:
             # 如果是,将文件内容写入 clash.yaml
             cat temp.yaml > clashnode.yaml
             sed -i '1,/type: select/s/type: select/type: load-balance\
+              strategy: round-robin\
               url: http:\/\/www.gstatic.com\/generate_204\
-              interval: 1200/' clashnode.yaml
+              interval: 600/' clashnode.yaml
             sed -i "$(awk '/DIRECT/{print NR}' clashnode.yaml|head -n 1) d" clashnode.yaml
             sed -i "s/节点选择/"$(date +'%Y-%m-%d')"/g" clashnode.yaml
             echo "YAML file downloaded and saved as clashnode.yaml"
