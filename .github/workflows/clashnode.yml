@@ -3,6 +3,7 @@ on:
   schedule:
     # 每天10点执行一次
     - cron:  0 10 * * *
+  workflow_dispatch:
 
 jobs:
   cron:
