@@ -23,7 +23,7 @@ jobs:
           YEAR=$(date +%Y)
           MONTH=$(date +%m)
           DAY=$(date +%d)
-          #DAY=16
+          DAY=17
           
           # 构造 URL
           URL="https://clashnode.com/wp-content/uploads/${YEAR}/${MONTH}/${YEAR}${MONTH}${DAY}.yaml"
