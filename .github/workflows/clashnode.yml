@@ -39,15 +39,18 @@ jobs:
           # 查看第一个句子是否为 port: 7890
           FIRST_LINE=$(head -n 1 temp.yaml)
           if [[ $FIRST_LINE == port:* ]]; then
-            # 如果是,将文件内容写入 clash.yaml
-            cat temp.yaml > clashnode.yaml
+            # 如果是,将文件内容写入 clashnode.yaml
             sed -i '1,/type: select/s/type: select/type: load-balance\
               strategy: round-robin\
               url: http:\/\/www.gstatic.com\/generate_204\
-              interval: 600/' clashnode.yaml
-            sed -i "$(awk '/DIRECT/{print NR}' clashnode.yaml|head -n 1) d" clashnode.yaml
-            sed -i "s/节点选择/"$(date +'%Y-%m-%d')"/g" clashnode.yaml
-            sed -i "s/type: ss,/type: trojan,/g" clashnode.yaml
+              interval: 600/' temp.yaml
+            sed -i "$(awk '/DIRECT/{print NR}' temp.yaml|head -n 1) d" temp.yaml
+            sed -i "s/节点选择/"$(date +'%Y-%m-%d')"/g" temp.yaml
+            sed -i "s/type: ss,/type: trojan,/g" temp.yaml
+            cat temp.yaml | tr '\n' '#' > clashnode.yaml
+            sed -i 's/全球直连#    type: select#    proxies:#  - name/全球直连#    type: select#    proxies:#      - DIRECT#  - name/g' clashnode.yaml
+            cat clashnode.yaml | tr '#' '\n' > temp.yaml
+            cat temp.yaml > clashnode.yaml
             echo "YAML file downloaded and saved as clashnode.yaml"
           else
             echo "YAML file did not match the condition. Delete temp.yaml and exit."
