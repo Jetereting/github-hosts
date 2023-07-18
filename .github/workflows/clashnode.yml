@@ -26,9 +26,14 @@ jobs:
           
           # 构造 URL
           URL="https://clashnode.com/wp-content/uploads/${YEAR}/${MONTH}/${YEAR}${MONTH}${DAY}.yaml"
+          URLV2ray="https://sub.back2me.cn/sub?target=clash&url=https%3A%2F%2Fclashnode.com%2Fwp-content%2Fuploads%2F${YEAR}%2F${MONTH}%2F${YEAR}${MONTH}${DAY}.txt"
           
           # 下载 YAML 文件
           curl -s $URL > temp.yaml
+          if grep -q '????' temp.yaml; then
+           curl -s $URLV2ray > temp.yaml
+          fi
+          
           
           # 查看第一个句子是否为 port: 7890
           FIRST_LINE=$(head -n 1 temp.yaml)
