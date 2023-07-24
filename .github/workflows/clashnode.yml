@@ -54,6 +54,7 @@ jobs:
             echo "YAML file downloaded and saved as clashnode.yaml"
           else
             echo "YAML file did not match the condition. Delete temp.yaml and exit."
+            echo $FIRST_LINE
             rm temp.yaml
             exit
           fi
