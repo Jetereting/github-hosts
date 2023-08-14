@@ -47,7 +47,7 @@ jobs:
             sed -i "$(awk '/DIRECT/{print NR}' temp.yaml|head -n 1) d" temp.yaml
             sed -i "s/节点选择/"$(date +'%Y-%m-%d')"/g" temp.yaml
             sed -i "s/type: ss,/type: trojan,/g" temp.yaml
-            sed -i "s/type: vless,/type: vmess,alterId: 0,/g" temp.yaml
+            sed -i "s/type: vless,/type: vmess,alterId: 0,cipher: auto,/g" temp.yaml
             cat temp.yaml | tr '\n' '#' > clashnode.yaml
             sed -i 's/全球直连#    type: select#    proxies:#  - name/全球直连#    type: select#    proxies:#      - DIRECT#  - name/g' clashnode.yaml
             cat clashnode.yaml | tr '#' '\n' > temp.yaml
