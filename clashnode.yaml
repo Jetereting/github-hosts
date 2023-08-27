@@ -15,84 +15,120 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: cnamemc.cdncisco.org, port: 443, client-fingerprint: chrome, type: trojan, password: 0ad5e311-7189-4124-ac8f-f828b681f10e, tfo: false, sni: c5mc.cdncisco.org, skip-cert-verify: false}
-  - {name: 🇸🇬 _SG_新加坡, server: sg6.421421.xyz, port: 20230, client-fingerprint: chrome, type: trojan, password: d9e70e09-e187-4ba1-82e4-1224676216b1, tfo: false, sni: undefined, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国, server: 172.64.105.249, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡, server: free.node.kk-proxy.pro, port: 54087, client-fingerprint: chrome, type: trojan, cipher: chacha20-ietf-poly1305, password: a0cea50a-c3e0-4385-b579-0c6fe2fe7fe8, tfo: false}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: ns1.v2-vip.fun, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国 2, server: 104.21.74.139, port: 443, client-fingerprint: chrome, type: vmess,alterId: 0,cipher: auto, uuid: d402216a-0728-448d-bccd-3d3a8e8af2c8, tls: true, tfo: false, servername: foal.aurorainiceland.com, skip-cert-verify: false, network: ws, ws-opts: {path: /nimws, headers: {Host: foal.aurorainiceland.com}}}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 2, server: zjxc.pmxu.link, port: 12318, client-fingerprint: chrome, type: vmess, uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 2, server: cdn.narutos.top, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /GdtYWlsLmNvbSJ9LCJjb3V, headers: {Host: newyork.yj2022.gq}}}
-  - {name: 🇺🇸 _US_美国 3, server: 162.159.240.97, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇺🇸 _US_美国 4, server: speedip.eu.org, port: 80, client-fingerprint: chrome, type: vmess, uuid: 72e8030a-96c2-4bdb-acfb-5bc02248f9f0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v04.ssrsub.com}}}
-  - {name: 🇬🇧 _CN_中国->🇬🇧_GB_英国, server: p1.bxy-fun1.com, port: 30470, client-fingerprint: chrome, type: trojan, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, tfo: false}
-  - {name: 🇹🇼 _CN_中国->🇹🇼_TW_台湾, server: p1.bxy-fun3.com, port: 23106, client-fingerprint: chrome, type: trojan, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db, tfo: false}
-  - {name: 🇺🇸 _US_美国 5, server: 104.21.231.123, port: 443, client-fingerprint: chrome, type: vmess, uuid: 2677D1CA-AF44-493E-96A5-E1B7FB468821, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: free.node.kk-proxy.pro, port: 54455, client-fingerprint: chrome, type: trojan, cipher: chacha20-ietf-poly1305, password: a0cea50a-c3e0-4385-b579-0c6fe2fe7fe8, tfo: false}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 3, server: free.node.kk-proxy.pro, port: 31659, client-fingerprint: chrome, type: trojan, cipher: chacha20-ietf-poly1305, password: a0cea50a-c3e0-4385-b579-0c6fe2fe7fe8, tfo: false}
-  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡, server: 104.31.16.196, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}}
-  - {name: 🇺🇸 _US_美国 6, server: 172.64.132.22, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 4, server: zjxc.pmxu.link, port: 39037, client-fingerprint: chrome, type: vmess, uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 7, server: stock.hostmonit.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: cd7f6a89-e86a-47ae-87d3-0277d205286f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nishikata, headers: {Host: us2.icu2rip.eu.org}}}
-  - {name: 🇺🇸 _US_美国->🇨🇱_CL_智利, server: sdygarm.e5outllok.me, port: 80, client-fingerprint: chrome, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sdygarm.e5outllok.me}}}
-  - {name: 🇨🇷 _CR_哥斯达黎加->🇨🇳_CN_中国, server: cf-lt.sharecentre.online, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 _US_美国 8, server: 162.159.247.47, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇺🇸 _US_美国 9, server: 162.159.243.133, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: 🇬🇧 _CN_中国->🇬🇧_GB_英国 2, server: 19224tj.matrixxx888.com, port: 19224, client-fingerprint: chrome, type: trojan, password: 8e7a723b-3eb8-3c32-83cf-2148d5765de1, tfo: false, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: zjxc.pmxu.link, port: 25153, client-fingerprint: chrome, type: vmess, uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本, server: 13.114.170.208, port: 443, client-fingerprint: chrome, type: trojan, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 2, server: dx1.992688.xyz, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: euserv2.vpn66.eu.org}}}
-  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 2, server: zjxc.pmxu.link, port: 19278, client-fingerprint: chrome, type: vmess, uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大, server: zjxc.pmxu.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: 5e20a547-0fe0-3a2f-bc92-9e69f26032fd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: zf.heigouyunzf.xyz, port: 38801, client-fingerprint: chrome, type: trojan, password: bc879024-4a54-4cda-874a-3a39f6bc634d, tfo: false, sni: undefined, skip-cert-verify: false}
-  - {name: 🇹🇷 _CN_中国->🇹🇷_TR_土耳其, server: 19251tj.matrixxx888.com, port: 19251, client-fingerprint: chrome, type: trojan, password: 8e7a723b-3eb8-3c32-83cf-2148d5765de1, tfo: false, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 10, server: 172.64.202.22, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚, server: au-01.cloudlion.me, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 71e02e57-f938-4393-bf77-cdd6bf6e7bb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: au-01.cloudlion.me}}}
+  - {name: 🇺🇸 _US_美国, server: 104.25.80.96, port: 80, client-fingerprint: chrome, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue06, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国 2, server: 172.67.189.168, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 3, server: 171.22.116.14, port: 41665, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 4, server: 172.67.49.8, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 183.232.249.189, port: 59902, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇰🇷 _KR_韩国, server: 43.201.29.156, port: 443, client-fingerprint: chrome, type: trojan, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇨🇦 _CA_加拿大, server: 51.161.35.200, port: 443, client-fingerprint: chrome, type: trojan, password: 006e3baa-cacd-4530-ae52-d633c4e9056d, tfo: false, sni: speed.cloudflare.com, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 162.159.243.53, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 5, server: ns1.v2-vip.fun, port: 80, client-fingerprint: chrome, type: vmess, uuid: 72e8030a-96c2-4bdb-acfb-5bc02248f9f0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v04.ssrsub.com}}}
+  - {name: 🇺🇸 _US_美国 6, server: 172.67.12.199, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 7, server: 172.67.100.189, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 8, server: cf-lt.sharecentre.online, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 9, server: 172.64.132.22, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 2, server: 162.159.253.16, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 10, server: us-01.cloudlion.me, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 71e02e57-f938-4393-bf77-cdd6bf6e7bb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-01.cloudlion.me}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 3, server: 172.64.90.186, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 11, server: 172.67.87.175, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: fr-01.cloudlion.me, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 71e02e57-f938-4393-bf77-cdd6bf6e7bb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fr-01.cloudlion.me}}}
+  - {name: 🇺🇸 _US_美国 12, server: 141.101.115.65, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: zjxc.pmxu.link, port: 19278, client-fingerprint: chrome, type: vmess, uuid: 9be0541e-ba00-30a4-9fc4-7ae4fc58e49c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 13, server: 172.67.7.166, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 14, server: 142.4.102.123, port: 56664, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 15, server: 172.67.95.171, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 16, server: 5.wyhkaa0.gq, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 2733e8cb-b074-4d66-e7c0-99f1db465e4c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 5.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _US_美国 17, server: 172.64.87.129, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 4, server: 172.67.10.151, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 18, server: 172.67.59.121, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 19, server: 137.175.86.189, port: 42151, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 20, server: 172.64.130.176, port: 80, client-fingerprint: chrome, type: vmess, uuid: c53919e6-fed6-4058-a02c-eb3f4452f691, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: csmg.daozhang.link}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 5, server: 172.67.196.139, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: yd1.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}}
+  - {name: 🇺🇸 _US_美国 21, server: 162.159.243.133, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 22, server: 17.wyhkaa0.gq, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 1e36655b-7d28-4513-d7f8-5f1a0c00a07d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 17.wyhkaa0.gq}}}
+  - {name: 🇯🇵 _JP_日本, server: 13.115.245.166, port: 443, client-fingerprint: chrome, type: trojan, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇺🇸 _US_美国 23, server: 172.67.212.44, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 24, server: 172.67.93.232, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 25, server: 142.4.109.68, port: 46672, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 26, server: 172.64.193.37, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 27, server: 172.67.134.209, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 28, server: 172.67.127.46, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 29, server: 162.159.240.97, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 23.227.39.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: 162.159.253.39, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 2, server: 183.232.170.32, port: 30004, client-fingerprint: chrome, type: trojan, cipher: aes-128-gcm, password: "g12sQi
+ss
+&1", tfo: false}
+  - {name: 🇺🇸 _US_美国 30, server: 162.159.247.47, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇮🇳 _IN_印度, server: 50.bbzbb.top, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 09fa3cc9-f1cb-330a-99bf-fe73a61b2b92, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 50.bbzbb.top}}}
+  - {name: 🇺🇸 _US_美国 31, server: 172.64.101.91, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇯🇵 _US_美国->🇯🇵_JP_日本, server: ca-01.cloudlion.me, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 71e02e57-f938-4393-bf77-cdd6bf6e7bb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ca-01.cloudlion.me}}}
+  - {name: 🇺🇸 _US_美国 32, server: 216.24.57.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: dd2.1808.cf}}}
 proxy-groups:
-  - name: 🚀 2023-08-26
+  - name: 🚀 2023-08-27
     type: load-balance
     strategy: round-robin
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
       - 🇺🇸 _US_美国
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 2
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 4
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 _US_美国 5
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 3
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+      - 🇰🇷 _KR_韩国
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 6
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 4
       - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国->🇨🇱_CL_智利
-      - 🇨🇷 _CR_哥斯达黎加->🇨🇳_CN_中国
       - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 9
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国 2
-      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
-      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
       - 🇺🇸 _US_美国 10
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 12
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 _US_美国 15
+      - 🇺🇸 _US_美国 16
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 19
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 5
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 22
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 23
+      - 🇺🇸 _US_美国 24
+      - 🇺🇸 _US_美国 25
+      - 🇺🇸 _US_美国 26
+      - 🇺🇸 _US_美国 27
+      - 🇺🇸 _US_美国 28
+      - 🇺🇸 _US_美国 29
+      - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇺🇸 _US_美国 30
+      - 🇮🇳 _IN_印度
+      - 🇺🇸 _US_美国 31
+      - 🇯🇵 _US_美国->🇯🇵_JP_日本
+      - 🇺🇸 _US_美国 32
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🚀 2023-08-26
+      - 🚀 2023-08-27
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -101,41 +137,58 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🚀 2023-08-26
+      - 🚀 2023-08-27
       - 🎯 全球直连
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇸🇬 _SG_新加坡
+      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
       - 🇺🇸 _US_美国
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 2
       - 🇺🇸 _US_美国 2
       - 🇺🇸 _US_美国 3
       - 🇺🇸 _US_美国 4
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国
-      - 🇹🇼 _CN_中国->🇹🇼_TW_台湾
-      - 🇺🇸 _US_美国 5
       - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 3
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+      - 🇰🇷 _KR_韩国
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 6
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 4
       - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国->🇨🇱_CL_智利
-      - 🇨🇷 _CR_哥斯达黎加->🇨🇳_CN_中国
       - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 9
-      - 🇬🇧 _CN_中国->🇬🇧_GB_英国 2
-      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 2
-      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇹🇷 _CN_中国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
       - 🇺🇸 _US_美国 10
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 12
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 _US_美国 15
+      - 🇺🇸 _US_美国 16
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 4
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 19
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 5
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 22
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 23
+      - 🇺🇸 _US_美国 24
+      - 🇺🇸 _US_美国 25
+      - 🇺🇸 _US_美国 26
+      - 🇺🇸 _US_美国 27
+      - 🇺🇸 _US_美国 28
+      - 🇺🇸 _US_美国 29
+      - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇺🇸 _US_美国 30
+      - 🇮🇳 _IN_印度
+      - 🇺🇸 _US_美国 31
+      - 🇯🇵 _US_美国->🇯🇵_JP_日本
+      - 🇺🇸 _US_美国 32
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1849,754 +1902,754 @@ rules:
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,t.me,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tdesktop.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,telegra.ph,🚀 2023-08-26
-  - DOMAIN-SUFFIX,telegram.me,🚀 2023-08-26
-  - DOMAIN-SUFFIX,telegram.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,telesco.pe,🚀 2023-08-26
-  - IP-CIDR,91.108.0.0/16,🚀 2023-08-26,no-resolve
-  - IP-CIDR,109.239.140.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,149.154.160.0/20,🚀 2023-08-26,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,🚀 2023-08-26,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,🚀 2023-08-26,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,🚀 2023-08-26,no-resolve
-  - DOMAIN-SUFFIX,edgedatg.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,go.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 2023-08-26
-  - DOMAIN,api-abematv.bucketeer.jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,abema-tv.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,abema.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,abema.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ameba.jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hayabusa.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hayabusa.media,🚀 2023-08-26
-  - DOMAIN-SUFFIX,c4assets.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,channel4.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,avoddashs,🚀 2023-08-26
-  - DOMAIN,atv-ps.amazon.com,🚀 2023-08-26
-  - DOMAIN,avodmp4s3ww-a.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🚀 2023-08-26
-  - DOMAIN,d1xfray82862hr.cloudfront.net,🚀 2023-08-26
-  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🚀 2023-08-26
-  - DOMAIN,d25xi40x97liuc.cloudfront.net,🚀 2023-08-26
-  - DOMAIN,d27xxe7juh1us6.cloudfront.net,🚀 2023-08-26
-  - DOMAIN,d3196yreox78o9.cloudfront.net,🚀 2023-08-26
-  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🚀 2023-08-26
-  - DOMAIN,ktpx.amazon.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,aboutamazon.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,aiv-cdn.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,aiv-delivery.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,amazon.jobs,🚀 2023-08-26
-  - DOMAIN-SUFFIX,amazontools.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,amazontours.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,amazonuniversity.jobs,🚀 2023-08-26
-  - DOMAIN-SUFFIX,amazonvideo.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,media-amazon.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pv-cdn.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,seattlespheres.com,🚀 2023-08-26
-  - DOMAIN,gspe1-ssl.ls.apple.com,🚀 2023-08-26
-  - DOMAIN,np-edge.itunes.apple.com,🚀 2023-08-26
-  - DOMAIN,play-edge.itunes.apple.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tv.apple.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,bbcfmt,🚀 2023-08-26
-  - DOMAIN-KEYWORD,uk-live,🚀 2023-08-26
-  - DOMAIN,aod-dash-uk-live.akamaized.net,🚀 2023-08-26
-  - DOMAIN,aod-hls-uk-live.akamaized.net,🚀 2023-08-26
-  - DOMAIN,vod-dash-uk-live.akamaized.net,🚀 2023-08-26
-  - DOMAIN,vod-thumb-uk-live.akamaized.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bbc.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bbc.co.uk,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bbc.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bbc.net.uk,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bbci.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bbci.co.uk,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bidi.net.uk,🚀 2023-08-26
-  - DOMAIN,bahamut.akamaized.net,🚀 2023-08-26
-  - DOMAIN,gamer-cds.cdn.hinet.net,🚀 2023-08-26
-  - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bahamut.com.tw,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gamer.com.tw,🚀 2023-08-26
-  - DOMAIN-KEYWORD,voddazn,🚀 2023-08-26
-  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dazn-api.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dazn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dazndn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,indazn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,indaznlab.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,sentry.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,deezer.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dzcdn.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disco-api.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,discovery.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,uplynk.com,🚀 2023-08-26
-  - DOMAIN,cdn.registerdisney.go.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,adobedtm.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bam.nr-data.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bamgrid.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,braze.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,cdn.optimizely.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,cdn.registerdisney.go.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,cws.conviva.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,d9.flashtalking.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disney-plus.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disney.demdex.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disney.my.sentry.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disneyplus.bn5x.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disneyplus.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disneystreaming.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dssott.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,js-agent.newrelic.com,🚀 2023-08-26
-  - DOMAIN,bcbolt446c5271-a.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,content.jwplatform.com,🚀 2023-08-26
-  - DOMAIN,edge.api.brightcove.com,🚀 2023-08-26
-  - DOMAIN,videos-f.jwpsrv.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,encoretvb.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,fox.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,foxdcg.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,uplynk.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hbo.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hbogo.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hbomax.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hbonow.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,.hbogoasia.,🚀 2023-08-26
-  - DOMAIN-KEYWORD,hbogoasia,🚀 2023-08-26
-  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 2023-08-26
-  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 2023-08-26
-  - DOMAIN,dai3fd1oh325y.cloudfront.net,🚀 2023-08-26
-  - DOMAIN,hboasia1-i.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,hboasia2-i.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,hboasia3-i.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,hboasia4-i.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,hboasia5-i.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,hboasialive.akamaized.net,🚀 2023-08-26
-  - DOMAIN,hbogoprod-vod.akamaized.net,🚀 2023-08-26
-  - DOMAIN,hbolb.onwardsmg.com,🚀 2023-08-26
-  - DOMAIN,hbounify-prod.evergent.com,🚀 2023-08-26
-  - DOMAIN,players.brightcove.net,🚀 2023-08-26
-  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hboasia.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hbogoasia.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hbogoasia.hk,🚀 2023-08-26
-  - DOMAIN-SUFFIX,5itv.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ocnttv.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,cws-hulu.conviva.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hulu.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,huluad.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,huluim.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hulustream.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,happyon.jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hjholdings.jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hulu.jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,prod.hjholdings.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,streaks.jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,yb.uncn.jp,🚀 2023-08-26
-  - DOMAIN,itvpnpmobile-a.akamaihd.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,itv.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,itvstatic.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,jooxweb-api,🚀 2023-08-26
-  - DOMAIN-SUFFIX,joox.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,japonx,🚀 2023-08-26
-  - DOMAIN-KEYWORD,japronx,🚀 2023-08-26
-  - DOMAIN-SUFFIX,japonx.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,japonx.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,japonx.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,japonx.vip,🚀 2023-08-26
-  - DOMAIN-SUFFIX,japronx.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,japronx.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,japronx.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,japronx.vip,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kfs.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kkbox.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kkbox.com.tw,🚀 2023-08-26
-  - DOMAIN,kktv-theater.kk.stream,🚀 2023-08-26
-  - DOMAIN,theater-kktv.cdn.hinet.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kktv.com.tw,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kktv.me,🚀 2023-08-26
-  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,litv.tv,🚀 2023-08-26
-  - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,linetv.tw,🚀 2023-08-26
-  - DOMAIN-SUFFIX,profile.line-scdn.net,🚀 2023-08-26
-  - DOMAIN,d349g9zuie06uo.cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,channel5.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,my5.tv,🚀 2023-08-26
-  - DOMAIN-KEYWORD,nowtv100,🚀 2023-08-26
-  - DOMAIN-KEYWORD,rthklive,🚀 2023-08-26
-  - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🚀 2023-08-26
-  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,mytvsuper.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tvb.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🚀 2023-08-26
-  - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 2023-08-26
-  - DOMAIN-KEYWORD,netflixdnstest,🚀 2023-08-26
-  - DOMAIN,netflix.com.edgesuite.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,fast.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflix.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflix.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflixdnstest0.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflixdnstest1.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflixdnstest2.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflixdnstest3.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflixdnstest4.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflixdnstest5.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflixdnstest6.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflixdnstest7.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflixdnstest8.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netflixdnstest9.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nflxext.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nflximg.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nflximg.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nflxso.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nflxvideo.net,🚀 2023-08-26
-  - IP-CIDR,8.41.4.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,23.246.0.0/18,🚀 2023-08-26,no-resolve
-  - IP-CIDR,37.77.184.0/21,🚀 2023-08-26,no-resolve
-  - IP-CIDR,38.72.126.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,45.57.0.0/17,🚀 2023-08-26,no-resolve
-  - IP-CIDR,64.120.128.0/17,🚀 2023-08-26,no-resolve
-  - IP-CIDR,66.197.128.0/17,🚀 2023-08-26,no-resolve
-  - IP-CIDR,69.53.224.0/19,🚀 2023-08-26,no-resolve
-  - IP-CIDR,103.87.204.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,108.175.32.0/20,🚀 2023-08-26,no-resolve
-  - IP-CIDR,185.2.220.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,185.9.188.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,192.173.64.0/18,🚀 2023-08-26,no-resolve
-  - IP-CIDR,198.38.96.0/19,🚀 2023-08-26,no-resolve
-  - IP-CIDR,198.45.48.0/20,🚀 2023-08-26,no-resolve
-  - IP-CIDR,203.75.84.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,207.45.72.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,208.75.76.0/22,🚀 2023-08-26,no-resolve
-  - DOMAIN-SUFFIX,dmc.nico,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nicovideo.jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nimg.jp,🚀 2023-08-26
-  - DOMAIN-KEYWORD,nivod,🚀 2023-08-26
-  - DOMAIN-SUFFIX,biggggg.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,mudvod.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nbys.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nbys1.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nbyy.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,newpppp.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nivod.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nivodi.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nivodz.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,vod360.net,🚀 2023-08-26
-  - DOMAIN-KEYWORD,olevod,🚀 2023-08-26
-  - DOMAIN-SUFFIX,haiwaikan.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,iole.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,olehd.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,olelive.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,olevod.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,olevod.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,olevod.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,olevodtv.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,openai,🚀 2023-08-26
-  - DOMAIN-SUFFIX,auth0.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,events.statsigapi.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,featuregates.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,identrust.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,intercom.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,intercomcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,openai.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,sentry.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,stripe.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pbs.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pandora.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,phncdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,phprcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pornhub.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pornhubpremium.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,qobuz.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,p-cdn.us,🚀 2023-08-26
-  - DOMAIN-SUFFIX,sndcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,soundcloud.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,-spotify-,🚀 2023-08-26
-  - DOMAIN-KEYWORD,spotify.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pscdn.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,scdn.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,spoti.fi,🚀 2023-08-26
-  - DOMAIN-SUFFIX,spotify.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,spotifycdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,spotifycdn.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tidal.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tidalhifi.com,🚀 2023-08-26
-  - DOMAIN,hamifans.emome.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,skyking.com.tw,🚀 2023-08-26
-  - DOMAIN-KEYWORD,tiktokcdn,🚀 2023-08-26
-  - DOMAIN-SUFFIX,byteoversea.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ibytedtos.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ipstatp.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,muscdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,musical.ly,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tik-tokapi.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tiktok.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tiktokcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tiktokv.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,ttvnw,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ext-twitch.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,jtvnw.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ttvnw.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🚀 2023-08-26
-  - DOMAIN-SUFFIX,twitch.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,twitchcdn.net,🚀 2023-08-26
-  - PROCESS-NAME,com.viu.pad,🚀 2023-08-26
-  - PROCESS-NAME,com.viu.phone,🚀 2023-08-26
-  - PROCESS-NAME,com.vuclip.viu,🚀 2023-08-26
-  - DOMAIN,api.viu.now.com,🚀 2023-08-26
-  - DOMAIN,d1k2us671qcoau.cloudfront.net,🚀 2023-08-26
-  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🚀 2023-08-26
-  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,viu.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,viu.now.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,viu.tv,🚀 2023-08-26
-  - DOMAIN-KEYWORD,youtube,🚀 2023-08-26
-  - DOMAIN,youtubei.googleapis.com,🚀 2023-08-26
-  - DOMAIN,yt3.ggpht.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,googlevideo.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gvt2.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,withyoutube.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,youtu.be,🚀 2023-08-26
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,youtube.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,youtubeeducation.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,youtubegaming.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,youtubekids.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,yt.be,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ytimg.com,🚀 2023-08-26
-  - DOMAIN,music.youtube.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,1password.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,adguard.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bit.no.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,btlibrary.me,🚀 2023-08-26
-  - DOMAIN-SUFFIX,cloudcone.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dubox.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gameloft.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,garena.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hoyolab.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,inoreader.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ip138.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,linkedin.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,myteamspeak.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,notion.so,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ping.pe,🚀 2023-08-26
-  - DOMAIN-SUFFIX,reddit.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,teddysun.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tumbex.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,twdvd.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,unsplash.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,eu,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hk,🚀 2023-08-26
-  - DOMAIN-SUFFIX,jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kr,🚀 2023-08-26
-  - DOMAIN-SUFFIX,sg,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tw,🚀 2023-08-26
-  - DOMAIN-SUFFIX,uk,🚀 2023-08-26
-  - DOMAIN-KEYWORD,1e100,🚀 2023-08-26
-  - DOMAIN-KEYWORD,abema,🚀 2023-08-26
-  - DOMAIN-KEYWORD,appledaily,🚀 2023-08-26
-  - DOMAIN-KEYWORD,avtb,🚀 2023-08-26
-  - DOMAIN-KEYWORD,beetalk,🚀 2023-08-26
-  - DOMAIN-KEYWORD,blogspot,🚀 2023-08-26
-  - DOMAIN-KEYWORD,dropbox,🚀 2023-08-26
-  - DOMAIN-KEYWORD,facebook,🚀 2023-08-26
-  - DOMAIN-KEYWORD,fbcdn,🚀 2023-08-26
-  - DOMAIN-KEYWORD,github,🚀 2023-08-26
-  - DOMAIN-KEYWORD,gmail,🚀 2023-08-26
-  - DOMAIN-KEYWORD,google,🚀 2023-08-26
-  - DOMAIN-KEYWORD,instagram,🚀 2023-08-26
-  - DOMAIN-KEYWORD,porn,🚀 2023-08-26
-  - DOMAIN-KEYWORD,sci-hub,🚀 2023-08-26
-  - DOMAIN-KEYWORD,spotify,🚀 2023-08-26
-  - DOMAIN-KEYWORD,telegram,🚀 2023-08-26
-  - DOMAIN-KEYWORD,twitter,🚀 2023-08-26
-  - DOMAIN-KEYWORD,whatsapp,🚀 2023-08-26
-  - DOMAIN-KEYWORD,youtube,🚀 2023-08-26
-  - DOMAIN-SUFFIX,4sqi.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,a248.e.akamai.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,adobedtm.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ampproject.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,android.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,aolcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,apkmirror.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,apkpure.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,app-measurement.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,appspot.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,archive.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,armorgames.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,aspnetcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,awsstatic.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,azureedge.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,azurewebsites.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bandwagonhost.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bing.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bkrtx.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,blogcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,blogger.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,blogsmithmedia.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,blogspot.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,blogspot.hk,🚀 2023-08-26
-  - DOMAIN-SUFFIX,blogspot.jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bloomberg.cn,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bloomberg.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,box.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,cachefly.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,cdnst.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,cloudfront.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,comodoca.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,daum.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,deskconnect.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disqus.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,disquscdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dropbox.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dropboxapi.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dropboxstatic.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dropboxusercontent.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,duckduckgo.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,edgecastcdn.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,edgekey.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,edgesuite.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,eurekavpt.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,fastmail.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,firebaseio.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,flickr.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,flipboard.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gfx.ms,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gongm.in,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hulu.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,id.heroku.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,io.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,issuu.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ixquick.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,jtvnw.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kat.cr,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kik.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kobo.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kobobooks.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,licdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,live.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,livefilestore.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,llnwd.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,macrumors.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,medium.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,mega.nz,🚀 2023-08-26
-  - DOMAIN-SUFFIX,megaupload.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,messenger.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,netdna-cdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nintendo.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nsstatic.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nytstyle.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,overcast.fm,🚀 2023-08-26
-  - DOMAIN-SUFFIX,openvpn.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,periscope.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pinimg.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pinterest.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,potato.im,🚀 2023-08-26
-  - DOMAIN-SUFFIX,prfct.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pscp.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,quora.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,resilio.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,sfx.ms,🚀 2023-08-26
-  - DOMAIN-SUFFIX,shadowsocks.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,slack-edge.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,smartdnsproxy.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,sndcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,soundcloud.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,startpage.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,staticflickr.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,symauth.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,symcb.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,symcd.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,textnow.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,textnow.me,🚀 2023-08-26
-  - DOMAIN-SUFFIX,thefacebook.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,thepiratebay.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,torproject.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,trustasiassl.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tumblr.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tumblr.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tvb.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,txmblr.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,v2ex.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,vimeo.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,vine.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,vox-cdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,amazon.co.jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,amazon.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,amazonaws.com,🚀 2023-08-26
-  - IP-CIDR,13.32.0.0/15,🚀 2023-08-26,no-resolve
-  - IP-CIDR,13.35.0.0/17,🚀 2023-08-26,no-resolve
-  - IP-CIDR,18.184.0.0/15,🚀 2023-08-26,no-resolve
-  - IP-CIDR,18.194.0.0/15,🚀 2023-08-26,no-resolve
-  - IP-CIDR,18.208.0.0/13,🚀 2023-08-26,no-resolve
-  - IP-CIDR,18.232.0.0/14,🚀 2023-08-26,no-resolve
-  - IP-CIDR,52.58.0.0/15,🚀 2023-08-26,no-resolve
-  - IP-CIDR,52.74.0.0/16,🚀 2023-08-26,no-resolve
-  - IP-CIDR,52.77.0.0/16,🚀 2023-08-26,no-resolve
-  - IP-CIDR,52.84.0.0/15,🚀 2023-08-26,no-resolve
-  - IP-CIDR,52.200.0.0/13,🚀 2023-08-26,no-resolve
-  - IP-CIDR,54.93.0.0/16,🚀 2023-08-26,no-resolve
-  - IP-CIDR,54.156.0.0/14,🚀 2023-08-26,no-resolve
-  - IP-CIDR,54.226.0.0/15,🚀 2023-08-26,no-resolve
-  - IP-CIDR,54.230.156.0/22,🚀 2023-08-26,no-resolve
-  - DOMAIN-KEYWORD,uk-live,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bbc.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bbc.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,apache.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,docker.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,elastic.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,elastic.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gcr.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gitlab.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gitlab.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,jitpack.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,maven.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,medium.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,mvnrepository.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,quay.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,reddit.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,redhat.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,sonatype.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,sourcegraph.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,spring.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,spring.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,stackoverflow.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,discord.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,discord.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,discord.gg,🚀 2023-08-26
-  - DOMAIN-SUFFIX,discord.media,🚀 2023-08-26
-  - DOMAIN-SUFFIX,discordapp.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,discordapp.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,facebook.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,fb.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,fb.me,🚀 2023-08-26
-  - DOMAIN-SUFFIX,fbcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,fbcdn.net,🚀 2023-08-26
-  - IP-CIDR,31.13.24.0/21,🚀 2023-08-26,no-resolve
-  - IP-CIDR,31.13.64.0/18,🚀 2023-08-26,no-resolve
-  - IP-CIDR,45.64.40.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,66.220.144.0/20,🚀 2023-08-26,no-resolve
-  - IP-CIDR,69.63.176.0/20,🚀 2023-08-26,no-resolve
-  - IP-CIDR,69.171.224.0/19,🚀 2023-08-26,no-resolve
-  - IP-CIDR,74.119.76.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,103.4.96.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,129.134.0.0/17,🚀 2023-08-26,no-resolve
-  - IP-CIDR,157.240.0.0/17,🚀 2023-08-26,no-resolve
-  - IP-CIDR,173.252.64.0/18,🚀 2023-08-26,no-resolve
-  - IP-CIDR,179.60.192.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,185.60.216.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,204.15.20.0/22,🚀 2023-08-26,no-resolve
-  - DOMAIN-SUFFIX,github.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,github.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,githubapp.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,githubassets.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,githubusercontent.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,1e100.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,2mdn.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,app-measurement.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,g.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ggpht.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,goo.gl,🚀 2023-08-26
-  - DOMAIN-SUFFIX,googleapis.cn,🚀 2023-08-26
-  - DOMAIN-SUFFIX,googleapis.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gstatic.cn,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gstatic.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gvt0.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gvt1.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gvt2.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,gvt3.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,youtu.be,🚀 2023-08-26
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,youtube.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,yt.be,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ytimg.com,🚀 2023-08-26
-  - IP-CIDR,74.125.0.0/16,🚀 2023-08-26,no-resolve
-  - IP-CIDR,173.194.0.0/16,🚀 2023-08-26,no-resolve
-  - IP-CIDR,120.232.181.162/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,120.241.147.226/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,120.253.253.226/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,120.253.255.162/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,120.253.255.34/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,120.253.255.98/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,180.163.150.162/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,180.163.150.34/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,180.163.151.162/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,180.163.151.34/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,203.208.39.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,203.208.40.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,203.208.41.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,203.208.43.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,203.208.50.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,220.181.174.162/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,220.181.174.226/32,🚀 2023-08-26,no-resolve
-  - IP-CIDR,220.181.174.34/32,🚀 2023-08-26,no-resolve
-  - DOMAIN-SUFFIX,cdninstagram.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,instagram.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,instagr.am,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kakao.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kakao.co.kr,🚀 2023-08-26
-  - DOMAIN-SUFFIX,kakaocdn.net,🚀 2023-08-26
-  - IP-CIDR,1.201.0.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,27.0.236.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,103.27.148.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,103.246.56.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,110.76.140.0/22,🚀 2023-08-26,no-resolve
-  - IP-CIDR,113.61.104.0/22,🚀 2023-08-26,no-resolve
-  - DOMAIN-SUFFIX,lin.ee,🚀 2023-08-26
-  - DOMAIN-SUFFIX,line-apps.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,line-cdn.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,line-scdn.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,line.me,🚀 2023-08-26
-  - DOMAIN-SUFFIX,line.naver.jp,🚀 2023-08-26
-  - DOMAIN-SUFFIX,nhncorp.jp,🚀 2023-08-26
-  - IP-CIDR,103.2.28.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,103.2.30.0/23,🚀 2023-08-26,no-resolve
-  - IP-CIDR,119.235.224.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,119.235.232.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,119.235.235.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,119.235.236.0/23,🚀 2023-08-26,no-resolve
-  - IP-CIDR,147.92.128.0/17,🚀 2023-08-26,no-resolve
-  - IP-CIDR,203.104.128.0/19,🚀 2023-08-26,no-resolve
-  - DOMAIN-SUFFIX,openai.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,1drv,🚀 2023-08-26
-  - DOMAIN-KEYWORD,onedrive,🚀 2023-08-26
-  - DOMAIN-KEYWORD,skydrive,🚀 2023-08-26
-  - DOMAIN-SUFFIX,livefilestore.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,oneclient.sfx.ms,🚀 2023-08-26
-  - DOMAIN-SUFFIX,onedrive.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,onedrive.live.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,photos.live.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,skydrive.wns.windows.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,storage.live.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,storage.msn.com,🚀 2023-08-26
-  - DOMAIN-KEYWORD,porn,🚀 2023-08-26
-  - DOMAIN-SUFFIX,8teenxxx.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ahcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bcvcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,bongacams.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,chaturbate.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,dditscdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,livejasmin.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,phncdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,phprcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pornhub.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pornhubpremium.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,rdtcdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,redtube.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,sb-cd.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,spankbang.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,t66y.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,xhamster.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,xnxx-cdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,xnxx.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,xvideos-cdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,xvideos.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ypncdn.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pixiv.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,pximg.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,amplitude.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,firebaseio.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,hockeyapp.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,readdle.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,smartmailcloud.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,fanatical.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,humblebundle.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,underlords.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,valvesoftware.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,playartifact.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,steam-chat.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,steamcommunity.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,steamgames.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,steampowered.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,steamserver.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,steamstatic.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,steamstat.us,🚀 2023-08-26
-  - DOMAIN,steambroadcast.akamaized.net,🚀 2023-08-26
-  - DOMAIN,steamcommunity-a.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,steamstore-a.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,steamusercontent-a.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,steamuserimages-a.akamaihd.net,🚀 2023-08-26
-  - DOMAIN,steampipe.akamaized.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tap.io,🚀 2023-08-26
-  - DOMAIN-SUFFIX,taptap.tw,🚀 2023-08-26
-  - DOMAIN-SUFFIX,twitch.tv,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ttvnw.net,🚀 2023-08-26
-  - DOMAIN-SUFFIX,jtvnw.net,🚀 2023-08-26
-  - DOMAIN-KEYWORD,ttvnw,🚀 2023-08-26
-  - DOMAIN-SUFFIX,t.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,twimg.co,🚀 2023-08-26
-  - DOMAIN-SUFFIX,twimg.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,twimg.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,t.me,🚀 2023-08-26
-  - DOMAIN-SUFFIX,tdesktop.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,telegra.ph,🚀 2023-08-26
-  - DOMAIN-SUFFIX,telegram.me,🚀 2023-08-26
-  - DOMAIN-SUFFIX,telegram.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,telesco.pe,🚀 2023-08-26
-  - IP-CIDR,91.108.0.0/16,🚀 2023-08-26,no-resolve
-  - IP-CIDR,109.239.140.0/24,🚀 2023-08-26,no-resolve
-  - IP-CIDR,149.154.160.0/20,🚀 2023-08-26,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,🚀 2023-08-26,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,🚀 2023-08-26,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,🚀 2023-08-26,no-resolve
-  - DOMAIN-SUFFIX,terabox.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,teraboxcdn.com,🚀 2023-08-26
-  - IP-CIDR,18.194.0.0/15,🚀 2023-08-26,no-resolve
-  - IP-CIDR,34.224.0.0/12,🚀 2023-08-26,no-resolve
-  - IP-CIDR,54.242.0.0/15,🚀 2023-08-26,no-resolve
-  - IP-CIDR,50.22.198.204/30,🚀 2023-08-26,no-resolve
-  - IP-CIDR,208.43.122.128/27,🚀 2023-08-26,no-resolve
-  - IP-CIDR,108.168.174.0/16,🚀 2023-08-26,no-resolve
-  - IP-CIDR,173.192.231.32/27,🚀 2023-08-26,no-resolve
-  - IP-CIDR,158.85.5.192/27,🚀 2023-08-26,no-resolve
-  - IP-CIDR,174.37.243.0/16,🚀 2023-08-26,no-resolve
-  - IP-CIDR,158.85.46.128/27,🚀 2023-08-26,no-resolve
-  - IP-CIDR,173.192.222.160/27,🚀 2023-08-26,no-resolve
-  - IP-CIDR,184.173.128.0/17,🚀 2023-08-26,no-resolve
-  - IP-CIDR,158.85.224.160/27,🚀 2023-08-26,no-resolve
-  - IP-CIDR,75.126.150.0/16,🚀 2023-08-26,no-resolve
-  - IP-CIDR,69.171.235.0/16,🚀 2023-08-26,no-resolve
-  - DOMAIN-SUFFIX,mediawiki.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wikibooks.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wikidata.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wikileaks.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wikimedia.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wikinews.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wikipedia.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wikiquote.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wikisource.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wikiversity.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wikivoyage.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,wiktionary.org,🚀 2023-08-26
-  - DOMAIN-SUFFIX,neulion.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,icntv.xyz,🚀 2023-08-26
-  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 2023-08-26
-  - DOMAIN-SUFFIX,ocnttv.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,vikacg.com,🚀 2023-08-26
-  - DOMAIN-SUFFIX,picjs.xyz,🚀 2023-08-26
+  - DOMAIN-SUFFIX,t.me,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tdesktop.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,telegra.ph,🚀 2023-08-27
+  - DOMAIN-SUFFIX,telegram.me,🚀 2023-08-27
+  - DOMAIN-SUFFIX,telegram.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,telesco.pe,🚀 2023-08-27
+  - IP-CIDR,91.108.0.0/16,🚀 2023-08-27,no-resolve
+  - IP-CIDR,109.239.140.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,149.154.160.0/20,🚀 2023-08-27,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,🚀 2023-08-27,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,🚀 2023-08-27,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,🚀 2023-08-27,no-resolve
+  - DOMAIN-SUFFIX,edgedatg.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,go.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 2023-08-27
+  - DOMAIN,api-abematv.bucketeer.jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,abema-tv.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,abema.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,abema.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ameba.jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hayabusa.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hayabusa.media,🚀 2023-08-27
+  - DOMAIN-SUFFIX,c4assets.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,channel4.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,avoddashs,🚀 2023-08-27
+  - DOMAIN,atv-ps.amazon.com,🚀 2023-08-27
+  - DOMAIN,avodmp4s3ww-a.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🚀 2023-08-27
+  - DOMAIN,d1xfray82862hr.cloudfront.net,🚀 2023-08-27
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🚀 2023-08-27
+  - DOMAIN,d25xi40x97liuc.cloudfront.net,🚀 2023-08-27
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net,🚀 2023-08-27
+  - DOMAIN,d3196yreox78o9.cloudfront.net,🚀 2023-08-27
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🚀 2023-08-27
+  - DOMAIN,ktpx.amazon.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,aboutamazon.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,aiv-cdn.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,aiv-delivery.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,amazon.jobs,🚀 2023-08-27
+  - DOMAIN-SUFFIX,amazontools.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,amazontours.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,amazonuniversity.jobs,🚀 2023-08-27
+  - DOMAIN-SUFFIX,amazonvideo.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,media-amazon.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pv-cdn.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,seattlespheres.com,🚀 2023-08-27
+  - DOMAIN,gspe1-ssl.ls.apple.com,🚀 2023-08-27
+  - DOMAIN,np-edge.itunes.apple.com,🚀 2023-08-27
+  - DOMAIN,play-edge.itunes.apple.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tv.apple.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,bbcfmt,🚀 2023-08-27
+  - DOMAIN-KEYWORD,uk-live,🚀 2023-08-27
+  - DOMAIN,aod-dash-uk-live.akamaized.net,🚀 2023-08-27
+  - DOMAIN,aod-hls-uk-live.akamaized.net,🚀 2023-08-27
+  - DOMAIN,vod-dash-uk-live.akamaized.net,🚀 2023-08-27
+  - DOMAIN,vod-thumb-uk-live.akamaized.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bbc.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bbc.co.uk,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bbc.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bbc.net.uk,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bbci.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bbci.co.uk,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bidi.net.uk,🚀 2023-08-27
+  - DOMAIN,bahamut.akamaized.net,🚀 2023-08-27
+  - DOMAIN,gamer-cds.cdn.hinet.net,🚀 2023-08-27
+  - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bahamut.com.tw,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gamer.com.tw,🚀 2023-08-27
+  - DOMAIN-KEYWORD,voddazn,🚀 2023-08-27
+  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dazn-api.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dazn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dazndn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,indazn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,indaznlab.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,sentry.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,deezer.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dzcdn.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disco-api.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,discovery.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,uplynk.com,🚀 2023-08-27
+  - DOMAIN,cdn.registerdisney.go.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,adobedtm.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bam.nr-data.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bamgrid.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,braze.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,cdn.optimizely.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,cdn.registerdisney.go.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,cws.conviva.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,d9.flashtalking.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disney-plus.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disney.demdex.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disney.my.sentry.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disneyplus.bn5x.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disneyplus.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disneystreaming.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dssott.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,js-agent.newrelic.com,🚀 2023-08-27
+  - DOMAIN,bcbolt446c5271-a.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,content.jwplatform.com,🚀 2023-08-27
+  - DOMAIN,edge.api.brightcove.com,🚀 2023-08-27
+  - DOMAIN,videos-f.jwpsrv.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,encoretvb.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,fox.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,foxdcg.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,uplynk.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hbo.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hbogo.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hbomax.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hbonow.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,.hbogoasia.,🚀 2023-08-27
+  - DOMAIN-KEYWORD,hbogoasia,🚀 2023-08-27
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 2023-08-27
+  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 2023-08-27
+  - DOMAIN,dai3fd1oh325y.cloudfront.net,🚀 2023-08-27
+  - DOMAIN,hboasia1-i.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,hboasia2-i.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,hboasia3-i.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,hboasia4-i.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,hboasia5-i.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,hboasialive.akamaized.net,🚀 2023-08-27
+  - DOMAIN,hbogoprod-vod.akamaized.net,🚀 2023-08-27
+  - DOMAIN,hbolb.onwardsmg.com,🚀 2023-08-27
+  - DOMAIN,hbounify-prod.evergent.com,🚀 2023-08-27
+  - DOMAIN,players.brightcove.net,🚀 2023-08-27
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hboasia.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hbogoasia.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hbogoasia.hk,🚀 2023-08-27
+  - DOMAIN-SUFFIX,5itv.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ocnttv.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,cws-hulu.conviva.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hulu.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,huluad.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,huluim.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hulustream.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,happyon.jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hjholdings.jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hulu.jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,prod.hjholdings.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,streaks.jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,yb.uncn.jp,🚀 2023-08-27
+  - DOMAIN,itvpnpmobile-a.akamaihd.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,itv.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,itvstatic.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,jooxweb-api,🚀 2023-08-27
+  - DOMAIN-SUFFIX,joox.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,japonx,🚀 2023-08-27
+  - DOMAIN-KEYWORD,japronx,🚀 2023-08-27
+  - DOMAIN-SUFFIX,japonx.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,japonx.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,japonx.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,japonx.vip,🚀 2023-08-27
+  - DOMAIN-SUFFIX,japronx.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,japronx.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,japronx.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,japronx.vip,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kfs.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kkbox.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kkbox.com.tw,🚀 2023-08-27
+  - DOMAIN,kktv-theater.kk.stream,🚀 2023-08-27
+  - DOMAIN,theater-kktv.cdn.hinet.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kktv.com.tw,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kktv.me,🚀 2023-08-27
+  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,litv.tv,🚀 2023-08-27
+  - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,linetv.tw,🚀 2023-08-27
+  - DOMAIN-SUFFIX,profile.line-scdn.net,🚀 2023-08-27
+  - DOMAIN,d349g9zuie06uo.cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,channel5.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,my5.tv,🚀 2023-08-27
+  - DOMAIN-KEYWORD,nowtv100,🚀 2023-08-27
+  - DOMAIN-KEYWORD,rthklive,🚀 2023-08-27
+  - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🚀 2023-08-27
+  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,mytvsuper.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tvb.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🚀 2023-08-27
+  - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 2023-08-27
+  - DOMAIN-KEYWORD,netflixdnstest,🚀 2023-08-27
+  - DOMAIN,netflix.com.edgesuite.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,fast.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflix.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflix.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflixdnstest0.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflixdnstest1.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflixdnstest2.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflixdnstest3.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflixdnstest4.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflixdnstest5.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflixdnstest6.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflixdnstest7.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflixdnstest8.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netflixdnstest9.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nflxext.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nflximg.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nflximg.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nflxso.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nflxvideo.net,🚀 2023-08-27
+  - IP-CIDR,8.41.4.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,23.246.0.0/18,🚀 2023-08-27,no-resolve
+  - IP-CIDR,37.77.184.0/21,🚀 2023-08-27,no-resolve
+  - IP-CIDR,38.72.126.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,45.57.0.0/17,🚀 2023-08-27,no-resolve
+  - IP-CIDR,64.120.128.0/17,🚀 2023-08-27,no-resolve
+  - IP-CIDR,66.197.128.0/17,🚀 2023-08-27,no-resolve
+  - IP-CIDR,69.53.224.0/19,🚀 2023-08-27,no-resolve
+  - IP-CIDR,103.87.204.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,108.175.32.0/20,🚀 2023-08-27,no-resolve
+  - IP-CIDR,185.2.220.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,185.9.188.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,192.173.64.0/18,🚀 2023-08-27,no-resolve
+  - IP-CIDR,198.38.96.0/19,🚀 2023-08-27,no-resolve
+  - IP-CIDR,198.45.48.0/20,🚀 2023-08-27,no-resolve
+  - IP-CIDR,203.75.84.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,207.45.72.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,208.75.76.0/22,🚀 2023-08-27,no-resolve
+  - DOMAIN-SUFFIX,dmc.nico,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nicovideo.jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nimg.jp,🚀 2023-08-27
+  - DOMAIN-KEYWORD,nivod,🚀 2023-08-27
+  - DOMAIN-SUFFIX,biggggg.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,mudvod.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nbys.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nbys1.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nbyy.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,newpppp.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nivod.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nivodi.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nivodz.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,vod360.net,🚀 2023-08-27
+  - DOMAIN-KEYWORD,olevod,🚀 2023-08-27
+  - DOMAIN-SUFFIX,haiwaikan.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,iole.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,olehd.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,olelive.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,olevod.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,olevod.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,olevod.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,olevodtv.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,openai,🚀 2023-08-27
+  - DOMAIN-SUFFIX,auth0.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,events.statsigapi.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,featuregates.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,identrust.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,intercom.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,intercomcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,openai.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,sentry.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,stripe.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pbs.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pandora.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,phncdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,phprcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pornhub.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pornhubpremium.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,qobuz.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,p-cdn.us,🚀 2023-08-27
+  - DOMAIN-SUFFIX,sndcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,soundcloud.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,-spotify-,🚀 2023-08-27
+  - DOMAIN-KEYWORD,spotify.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pscdn.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,scdn.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,spoti.fi,🚀 2023-08-27
+  - DOMAIN-SUFFIX,spotify.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,spotifycdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,spotifycdn.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tidal.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tidalhifi.com,🚀 2023-08-27
+  - DOMAIN,hamifans.emome.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,skyking.com.tw,🚀 2023-08-27
+  - DOMAIN-KEYWORD,tiktokcdn,🚀 2023-08-27
+  - DOMAIN-SUFFIX,byteoversea.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ibytedtos.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ipstatp.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,muscdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,musical.ly,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tik-tokapi.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tiktok.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tiktokcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tiktokv.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,ttvnw,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ext-twitch.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,jtvnw.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ttvnw.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🚀 2023-08-27
+  - DOMAIN-SUFFIX,twitch.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,twitchcdn.net,🚀 2023-08-27
+  - PROCESS-NAME,com.viu.pad,🚀 2023-08-27
+  - PROCESS-NAME,com.viu.phone,🚀 2023-08-27
+  - PROCESS-NAME,com.vuclip.viu,🚀 2023-08-27
+  - DOMAIN,api.viu.now.com,🚀 2023-08-27
+  - DOMAIN,d1k2us671qcoau.cloudfront.net,🚀 2023-08-27
+  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🚀 2023-08-27
+  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,viu.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,viu.now.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,viu.tv,🚀 2023-08-27
+  - DOMAIN-KEYWORD,youtube,🚀 2023-08-27
+  - DOMAIN,youtubei.googleapis.com,🚀 2023-08-27
+  - DOMAIN,yt3.ggpht.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,googlevideo.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gvt2.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,withyoutube.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,youtu.be,🚀 2023-08-27
+  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,youtube.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,youtubeeducation.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,youtubegaming.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,youtubekids.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,yt.be,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ytimg.com,🚀 2023-08-27
+  - DOMAIN,music.youtube.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,1password.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,adguard.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bit.no.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,btlibrary.me,🚀 2023-08-27
+  - DOMAIN-SUFFIX,cloudcone.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dubox.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gameloft.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,garena.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hoyolab.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,inoreader.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ip138.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,linkedin.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,myteamspeak.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,notion.so,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ping.pe,🚀 2023-08-27
+  - DOMAIN-SUFFIX,reddit.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,teddysun.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tumbex.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,twdvd.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,unsplash.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,eu,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hk,🚀 2023-08-27
+  - DOMAIN-SUFFIX,jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kr,🚀 2023-08-27
+  - DOMAIN-SUFFIX,sg,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tw,🚀 2023-08-27
+  - DOMAIN-SUFFIX,uk,🚀 2023-08-27
+  - DOMAIN-KEYWORD,1e100,🚀 2023-08-27
+  - DOMAIN-KEYWORD,abema,🚀 2023-08-27
+  - DOMAIN-KEYWORD,appledaily,🚀 2023-08-27
+  - DOMAIN-KEYWORD,avtb,🚀 2023-08-27
+  - DOMAIN-KEYWORD,beetalk,🚀 2023-08-27
+  - DOMAIN-KEYWORD,blogspot,🚀 2023-08-27
+  - DOMAIN-KEYWORD,dropbox,🚀 2023-08-27
+  - DOMAIN-KEYWORD,facebook,🚀 2023-08-27
+  - DOMAIN-KEYWORD,fbcdn,🚀 2023-08-27
+  - DOMAIN-KEYWORD,github,🚀 2023-08-27
+  - DOMAIN-KEYWORD,gmail,🚀 2023-08-27
+  - DOMAIN-KEYWORD,google,🚀 2023-08-27
+  - DOMAIN-KEYWORD,instagram,🚀 2023-08-27
+  - DOMAIN-KEYWORD,porn,🚀 2023-08-27
+  - DOMAIN-KEYWORD,sci-hub,🚀 2023-08-27
+  - DOMAIN-KEYWORD,spotify,🚀 2023-08-27
+  - DOMAIN-KEYWORD,telegram,🚀 2023-08-27
+  - DOMAIN-KEYWORD,twitter,🚀 2023-08-27
+  - DOMAIN-KEYWORD,whatsapp,🚀 2023-08-27
+  - DOMAIN-KEYWORD,youtube,🚀 2023-08-27
+  - DOMAIN-SUFFIX,4sqi.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,a248.e.akamai.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,adobedtm.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ampproject.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,android.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,aolcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,apkmirror.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,apkpure.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,app-measurement.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,appspot.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,archive.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,armorgames.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,aspnetcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,awsstatic.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,azureedge.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,azurewebsites.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bandwagonhost.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bing.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bkrtx.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,blogcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,blogger.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,blogsmithmedia.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,blogspot.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,blogspot.hk,🚀 2023-08-27
+  - DOMAIN-SUFFIX,blogspot.jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bloomberg.cn,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bloomberg.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,box.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,cachefly.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,cdnst.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,cloudfront.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,comodoca.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,daum.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,deskconnect.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disqus.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,disquscdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dropbox.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dropboxapi.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dropboxstatic.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dropboxusercontent.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,duckduckgo.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,edgecastcdn.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,edgekey.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,edgesuite.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,eurekavpt.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,fastmail.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,firebaseio.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,flickr.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,flipboard.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gfx.ms,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gongm.in,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hulu.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,id.heroku.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,io.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,issuu.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ixquick.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,jtvnw.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kat.cr,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kik.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kobo.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kobobooks.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,licdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,live.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,livefilestore.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,llnwd.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,macrumors.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,medium.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,mega.nz,🚀 2023-08-27
+  - DOMAIN-SUFFIX,megaupload.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,messenger.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,netdna-cdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nintendo.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nsstatic.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nytstyle.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,overcast.fm,🚀 2023-08-27
+  - DOMAIN-SUFFIX,openvpn.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,periscope.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pinimg.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pinterest.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,potato.im,🚀 2023-08-27
+  - DOMAIN-SUFFIX,prfct.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pscp.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,quora.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,resilio.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,sfx.ms,🚀 2023-08-27
+  - DOMAIN-SUFFIX,shadowsocks.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,slack-edge.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,smartdnsproxy.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,sndcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,soundcloud.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,startpage.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,staticflickr.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,symauth.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,symcb.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,symcd.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,textnow.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,textnow.me,🚀 2023-08-27
+  - DOMAIN-SUFFIX,thefacebook.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,thepiratebay.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,torproject.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,trustasiassl.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tumblr.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tumblr.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tvb.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,txmblr.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,v2ex.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,vimeo.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,vine.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,vox-cdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,amazon.co.jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,amazon.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,amazonaws.com,🚀 2023-08-27
+  - IP-CIDR,13.32.0.0/15,🚀 2023-08-27,no-resolve
+  - IP-CIDR,13.35.0.0/17,🚀 2023-08-27,no-resolve
+  - IP-CIDR,18.184.0.0/15,🚀 2023-08-27,no-resolve
+  - IP-CIDR,18.194.0.0/15,🚀 2023-08-27,no-resolve
+  - IP-CIDR,18.208.0.0/13,🚀 2023-08-27,no-resolve
+  - IP-CIDR,18.232.0.0/14,🚀 2023-08-27,no-resolve
+  - IP-CIDR,52.58.0.0/15,🚀 2023-08-27,no-resolve
+  - IP-CIDR,52.74.0.0/16,🚀 2023-08-27,no-resolve
+  - IP-CIDR,52.77.0.0/16,🚀 2023-08-27,no-resolve
+  - IP-CIDR,52.84.0.0/15,🚀 2023-08-27,no-resolve
+  - IP-CIDR,52.200.0.0/13,🚀 2023-08-27,no-resolve
+  - IP-CIDR,54.93.0.0/16,🚀 2023-08-27,no-resolve
+  - IP-CIDR,54.156.0.0/14,🚀 2023-08-27,no-resolve
+  - IP-CIDR,54.226.0.0/15,🚀 2023-08-27,no-resolve
+  - IP-CIDR,54.230.156.0/22,🚀 2023-08-27,no-resolve
+  - DOMAIN-KEYWORD,uk-live,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bbc.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bbc.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,apache.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,docker.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,elastic.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,elastic.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gcr.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gitlab.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gitlab.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,jitpack.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,maven.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,medium.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,mvnrepository.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,quay.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,reddit.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,redhat.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,sonatype.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,sourcegraph.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,spring.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,spring.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,stackoverflow.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,discord.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,discord.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,discord.gg,🚀 2023-08-27
+  - DOMAIN-SUFFIX,discord.media,🚀 2023-08-27
+  - DOMAIN-SUFFIX,discordapp.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,discordapp.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,facebook.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,fb.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,fb.me,🚀 2023-08-27
+  - DOMAIN-SUFFIX,fbcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,fbcdn.net,🚀 2023-08-27
+  - IP-CIDR,31.13.24.0/21,🚀 2023-08-27,no-resolve
+  - IP-CIDR,31.13.64.0/18,🚀 2023-08-27,no-resolve
+  - IP-CIDR,45.64.40.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,66.220.144.0/20,🚀 2023-08-27,no-resolve
+  - IP-CIDR,69.63.176.0/20,🚀 2023-08-27,no-resolve
+  - IP-CIDR,69.171.224.0/19,🚀 2023-08-27,no-resolve
+  - IP-CIDR,74.119.76.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,103.4.96.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,129.134.0.0/17,🚀 2023-08-27,no-resolve
+  - IP-CIDR,157.240.0.0/17,🚀 2023-08-27,no-resolve
+  - IP-CIDR,173.252.64.0/18,🚀 2023-08-27,no-resolve
+  - IP-CIDR,179.60.192.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,185.60.216.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,204.15.20.0/22,🚀 2023-08-27,no-resolve
+  - DOMAIN-SUFFIX,github.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,github.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,githubapp.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,githubassets.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,githubusercontent.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,1e100.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,2mdn.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,app-measurement.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,g.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ggpht.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,goo.gl,🚀 2023-08-27
+  - DOMAIN-SUFFIX,googleapis.cn,🚀 2023-08-27
+  - DOMAIN-SUFFIX,googleapis.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gstatic.cn,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gstatic.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gvt0.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gvt1.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gvt2.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,gvt3.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,youtu.be,🚀 2023-08-27
+  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,youtube.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,yt.be,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ytimg.com,🚀 2023-08-27
+  - IP-CIDR,74.125.0.0/16,🚀 2023-08-27,no-resolve
+  - IP-CIDR,173.194.0.0/16,🚀 2023-08-27,no-resolve
+  - IP-CIDR,120.232.181.162/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,120.241.147.226/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,120.253.253.226/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,120.253.255.162/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,120.253.255.34/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,120.253.255.98/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,180.163.150.162/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,180.163.150.34/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,180.163.151.162/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,180.163.151.34/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,203.208.39.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,203.208.40.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,203.208.41.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,203.208.43.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,203.208.50.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,220.181.174.162/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,220.181.174.226/32,🚀 2023-08-27,no-resolve
+  - IP-CIDR,220.181.174.34/32,🚀 2023-08-27,no-resolve
+  - DOMAIN-SUFFIX,cdninstagram.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,instagram.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,instagr.am,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kakao.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kakao.co.kr,🚀 2023-08-27
+  - DOMAIN-SUFFIX,kakaocdn.net,🚀 2023-08-27
+  - IP-CIDR,1.201.0.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,27.0.236.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,103.27.148.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,103.246.56.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,110.76.140.0/22,🚀 2023-08-27,no-resolve
+  - IP-CIDR,113.61.104.0/22,🚀 2023-08-27,no-resolve
+  - DOMAIN-SUFFIX,lin.ee,🚀 2023-08-27
+  - DOMAIN-SUFFIX,line-apps.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,line-cdn.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,line-scdn.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,line.me,🚀 2023-08-27
+  - DOMAIN-SUFFIX,line.naver.jp,🚀 2023-08-27
+  - DOMAIN-SUFFIX,nhncorp.jp,🚀 2023-08-27
+  - IP-CIDR,103.2.28.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,103.2.30.0/23,🚀 2023-08-27,no-resolve
+  - IP-CIDR,119.235.224.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,119.235.232.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,119.235.235.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,119.235.236.0/23,🚀 2023-08-27,no-resolve
+  - IP-CIDR,147.92.128.0/17,🚀 2023-08-27,no-resolve
+  - IP-CIDR,203.104.128.0/19,🚀 2023-08-27,no-resolve
+  - DOMAIN-SUFFIX,openai.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,1drv,🚀 2023-08-27
+  - DOMAIN-KEYWORD,onedrive,🚀 2023-08-27
+  - DOMAIN-KEYWORD,skydrive,🚀 2023-08-27
+  - DOMAIN-SUFFIX,livefilestore.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,oneclient.sfx.ms,🚀 2023-08-27
+  - DOMAIN-SUFFIX,onedrive.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,onedrive.live.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,photos.live.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,skydrive.wns.windows.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,storage.live.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,storage.msn.com,🚀 2023-08-27
+  - DOMAIN-KEYWORD,porn,🚀 2023-08-27
+  - DOMAIN-SUFFIX,8teenxxx.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ahcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bcvcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,bongacams.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,chaturbate.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,dditscdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,livejasmin.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,phncdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,phprcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pornhub.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pornhubpremium.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,rdtcdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,redtube.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,sb-cd.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,spankbang.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,t66y.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,xhamster.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,xnxx-cdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,xnxx.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,xvideos-cdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,xvideos.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ypncdn.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pixiv.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,pximg.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,amplitude.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,firebaseio.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,hockeyapp.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,readdle.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,smartmailcloud.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,fanatical.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,humblebundle.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,underlords.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,valvesoftware.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,playartifact.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,steam-chat.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,steamcommunity.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,steamgames.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,steampowered.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,steamserver.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,steamstatic.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,steamstat.us,🚀 2023-08-27
+  - DOMAIN,steambroadcast.akamaized.net,🚀 2023-08-27
+  - DOMAIN,steamcommunity-a.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,steamstore-a.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,steamusercontent-a.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,steamuserimages-a.akamaihd.net,🚀 2023-08-27
+  - DOMAIN,steampipe.akamaized.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tap.io,🚀 2023-08-27
+  - DOMAIN-SUFFIX,taptap.tw,🚀 2023-08-27
+  - DOMAIN-SUFFIX,twitch.tv,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ttvnw.net,🚀 2023-08-27
+  - DOMAIN-SUFFIX,jtvnw.net,🚀 2023-08-27
+  - DOMAIN-KEYWORD,ttvnw,🚀 2023-08-27
+  - DOMAIN-SUFFIX,t.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,twimg.co,🚀 2023-08-27
+  - DOMAIN-SUFFIX,twimg.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,twimg.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,t.me,🚀 2023-08-27
+  - DOMAIN-SUFFIX,tdesktop.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,telegra.ph,🚀 2023-08-27
+  - DOMAIN-SUFFIX,telegram.me,🚀 2023-08-27
+  - DOMAIN-SUFFIX,telegram.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,telesco.pe,🚀 2023-08-27
+  - IP-CIDR,91.108.0.0/16,🚀 2023-08-27,no-resolve
+  - IP-CIDR,109.239.140.0/24,🚀 2023-08-27,no-resolve
+  - IP-CIDR,149.154.160.0/20,🚀 2023-08-27,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,🚀 2023-08-27,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,🚀 2023-08-27,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,🚀 2023-08-27,no-resolve
+  - DOMAIN-SUFFIX,terabox.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,teraboxcdn.com,🚀 2023-08-27
+  - IP-CIDR,18.194.0.0/15,🚀 2023-08-27,no-resolve
+  - IP-CIDR,34.224.0.0/12,🚀 2023-08-27,no-resolve
+  - IP-CIDR,54.242.0.0/15,🚀 2023-08-27,no-resolve
+  - IP-CIDR,50.22.198.204/30,🚀 2023-08-27,no-resolve
+  - IP-CIDR,208.43.122.128/27,🚀 2023-08-27,no-resolve
+  - IP-CIDR,108.168.174.0/16,🚀 2023-08-27,no-resolve
+  - IP-CIDR,173.192.231.32/27,🚀 2023-08-27,no-resolve
+  - IP-CIDR,158.85.5.192/27,🚀 2023-08-27,no-resolve
+  - IP-CIDR,174.37.243.0/16,🚀 2023-08-27,no-resolve
+  - IP-CIDR,158.85.46.128/27,🚀 2023-08-27,no-resolve
+  - IP-CIDR,173.192.222.160/27,🚀 2023-08-27,no-resolve
+  - IP-CIDR,184.173.128.0/17,🚀 2023-08-27,no-resolve
+  - IP-CIDR,158.85.224.160/27,🚀 2023-08-27,no-resolve
+  - IP-CIDR,75.126.150.0/16,🚀 2023-08-27,no-resolve
+  - IP-CIDR,69.171.235.0/16,🚀 2023-08-27,no-resolve
+  - DOMAIN-SUFFIX,mediawiki.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wikibooks.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wikidata.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wikileaks.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wikimedia.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wikinews.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wikipedia.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wikiquote.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wikisource.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wikiversity.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wikivoyage.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,wiktionary.org,🚀 2023-08-27
+  - DOMAIN-SUFFIX,neulion.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,icntv.xyz,🚀 2023-08-27
+  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 2023-08-27
+  - DOMAIN-SUFFIX,ocnttv.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,vikacg.com,🚀 2023-08-27
+  - DOMAIN-SUFFIX,picjs.xyz,🚀 2023-08-27
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
   - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
