@@ -31,9 +31,9 @@ jobs:
           # 下载 YAML 文件
           curl -s $URLV2ray > temp.yaml
 
-          # 查看第一个句子是否为 port: 7890
+          # 查看第一个句子是否为 mixed-port: 1080
           FIRST_LINE=$(head -n 1 temp.yaml)
-          if [[ $FIRST_LINE == port:* ]]; then
+          if [[ $FIRST_LINE == mixed-port:* ]]; then
             # 如果是,将文件内容写入 clashnode.yaml
             cat temp.yaml > clashnode_raw.yaml
             echo "YAML file downloaded and saved as clashnode_raw.yaml"
