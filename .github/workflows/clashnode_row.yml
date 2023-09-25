@@ -1,4 +1,4 @@
-name: clashnode 更新
+name: clashnode_raw 更新
 on:
   schedule:
     # 每天东八区10点30执行一次
