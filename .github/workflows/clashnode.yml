@@ -27,7 +27,7 @@ jobs:
           
           # 构造 URL
           URL="https://clashnode.com/wp-content/uploads/${YEAR}/${MONTH}/${YEAR}${MONTH}${DAY}.yaml"
-          URLV2ray="https://sub.back2me.cn/sub?target=clash&url=https%3A%2F%2Fclashnode.com%2Fwp-content%2Fuploads%2F${YEAR}%2F${MONTH}%2F${YEAR}${MONTH}${DAY}.txt"
+          URLV2ray="https://immconvert.com/sub?target=clash&url=https%3A%2F%2Fclashnode.com%2Fwp-content%2Fuploads%2F${YEAR}%2F${MONTH}%2F${YEAR}${MONTH}${DAY}.txt"
           
           # 下载 YAML 文件
           curl -s $URL > temp.yaml
@@ -38,7 +38,7 @@ jobs:
           
           # 查看第一个句子是否为 port: 7890
           FIRST_LINE=$(head -n 1 temp.yaml)
-          if [[ $FIRST_LINE == port:* ]]; then
+          if [[ $FIRST_LINE == mixed-port:* ]]; then
             # 如果是,将文件内容写入 clashnode.yaml
             sed -i '1,/type: select/s/type: select/type: load-balance\
               strategy: round-robin\
