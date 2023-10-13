@@ -45,7 +45,7 @@ jobs:
               url: http:\/\/www.gstatic.com\/generate_204\
               interval: 600/' temp.yaml
             sed -i "$(awk '/DIRECT/{print NR}' temp.yaml|head -n 1) d" temp.yaml
-            sed -i "s/节点选择/"$(date +'%Y-%m-%d')"/g" temp.yaml
+            sed -i "s/节点选择/"$(date +'%Y-%m-%d-%H')"/g" temp.yaml
             sed -i "s/type: ss,/type: trojan,/g" temp.yaml
             sed -i "s/type: vless,/type: vmess,alterId: 0,cipher: auto,/g" temp.yaml
             cat temp.yaml | tr '\n' '#' > clashnode.yaml
