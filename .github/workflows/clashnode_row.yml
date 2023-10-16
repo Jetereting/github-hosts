@@ -26,14 +26,14 @@ jobs:
           #DAY=17
           
           # 构造 URL
-          URLV2ray="https://immconvert.com/sub?target=clash&url=https%3A%2F%2Fclashnode.com%2Fwp-content%2Fuploads%2F${YEAR}%2F${MONTH}%2F${YEAR}${MONTH}${DAY}.txt"
+          URLV2ray="https://subapi.imgki.com/sub?target=clash&url=https%3A%2F%2Fclashnode.com%2Fwp-content%2Fuploads%2F${YEAR}%2F${MONTH}%2F${YEAR}${MONTH}${DAY}.txt"
           
           # 下载 YAML 文件
           curl -s $URLV2ray > temp.yaml
 
-          # 查看第一个句子是否为 mixed-port: 1080
+          # 查看第一个句子是否为包含 port: 
           FIRST_LINE=$(head -n 1 temp.yaml)
-          if [[ $FIRST_LINE == mixed-port:* ]]; then
+          if [[ $FIRST_LINE =~ "port:" ]]; then
             # 如果是,将文件内容写入 clashnode.yaml
             sed -i "s/漏网之鱼/"$(date +'%Y-%m-%d-%H')"/g" temp.yaml
             cat temp.yaml > clashnode_raw.yaml
