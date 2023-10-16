@@ -65,7 +65,8 @@ jobs:
       - name: Add and commit
         run: |
           git add .
-          git commit -m "Add generated files"     
+          git commit -m "Add generated files" 
+          git pull
 
       - name: Push changes
         run: |
