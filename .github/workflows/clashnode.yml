@@ -1,8 +1,8 @@
 name: clashnode 更新
 on:
   schedule:
-    # 每天东八区10点30执行一次
-    - cron:  30 2 * * *
+    # 每天东八区23点30执行一次
+    - cron:  30 15 * * *
   workflow_dispatch:
 
 jobs:
