@@ -42,6 +42,7 @@ jobs:
             echo "YAML file did not match the condition. Delete temp.yaml and exit."
             echo $FIRST_LINE
             rm temp.yaml
+            echo '#'$FIRST_LINE >> clashnode_raw.yaml
             exit
           fi
           # 删除临时文件 temp.yaml
