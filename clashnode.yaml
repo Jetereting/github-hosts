@@ -5,13 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: 104.31.16.164, port: 2082, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /franc.digires.shop/11201, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
-  - {name: _GB_英国, server: 13.41.151.197, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: _PK_巴基斯坦, server: hk1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: a3f221f8-43d6-4363-8624-ce62d3db0202, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国 2, server: 94.131.13.159, port: 16128, type: trojan, password: zwbdPys6Va, sni: vpnallpha.online, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国, server: 5.104.108.109, port: 443, type: trojan, password: 6504a551-673d-44d6-85a9-b05f67fdf971, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇧🇷_BR_巴西, server: sbl4.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}, udp: true}
+  - {name: _US_美国, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}, udp: true}
+  - {name: _US_美国->🇬🇧_GB_英国, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}, udp: true}
+  - {name: _US_美国->🇮🇳_IN_印度, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: sfmomastore.com, port: 80, type: vmess, uuid: 0580abe6-9aaf-40e2-ba33-0bc9f3b6ef2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ee1.xv2ray.net}}, udp: true}
+  - {name: _US_美国 2, server: 104.31.16.164, port: 2082, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /franc.digires.shop/11201, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}, udp: true}
+  - {name: _US_美国->🇮🇳_IN_印度 2, server: hdlb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}, udp: true}
+  - {name: _US_美国->🇸🇦_SA_沙特阿拉伯, server: jd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}, udp: true}
 proxy-groups:
-  - name: 🔰 2023-10-30-15
+  - name: 🔰 2023-10-31-15
     type: load-balance
     strategy: round-robin
     url: http://www.gstatic.com/generate_204
@@ -19,91 +23,119 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _DE_德国
+      - _US_美国->🇧🇷_BR_巴西
       - _US_美国
-      - _GB_英国
-      - _PK_巴基斯坦
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国->🇸🇦_SA_沙特阿拉伯
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - _DE_德国
+      - _US_美国->🇧🇷_BR_巴西
       - _US_美国
-      - _GB_英国
-      - _PK_巴基斯坦
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国->🇸🇦_SA_沙特阿拉伯
   - name: 🎥 NETFLIX
     type: select
     proxies:
-      - 🔰 2023-10-30-15
+      - 🔰 2023-10-31-15
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _DE_德国
+      - _US_美国->🇧🇷_BR_巴西
       - _US_美国
-      - _GB_英国
-      - _PK_巴基斯坦
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国->🇸🇦_SA_沙特阿拉伯
   - name: ⛔️ 广告拦截
     type: select
     proxies:
       - 🛑 全球拦截
       - 🎯 全球直连
-      - 🔰 2023-10-30-15
+      - 🔰 2023-10-31-15
   - name: 🚫 运营劫持
     type: select
     proxies:
       - 🛑 全球拦截
       - 🎯 全球直连
-      - 🔰 2023-10-30-15
+      - 🔰 2023-10-31-15
   - name: 🌍 国外媒体
     type: select
     proxies:
-      - 🔰 2023-10-30-15
+      - 🔰 2023-10-31-15
       - ♻️ 自动选择
       - 🎯 全球直连
+      - _DE_德国
+      - _US_美国->🇧🇷_BR_巴西
       - _US_美国
-      - _GB_英国
-      - _PK_巴基斯坦
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国->🇸🇦_SA_沙特阿拉伯
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🔰 2023-10-30-15
+      - 🔰 2023-10-31-15
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
-      - 🔰 2023-10-30-15
+      - 🔰 2023-10-31-15
+      - _DE_德国
+      - _US_美国->🇧🇷_BR_巴西
       - _US_美国
-      - _GB_英国
-      - _PK_巴基斯坦
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国->🇸🇦_SA_沙特阿拉伯
   - name: 📲 电报信息
     type: select
     proxies:
-      - 🔰 2023-10-30-15
+      - 🔰 2023-10-31-15
       - 🎯 全球直连
+      - _DE_德国
+      - _US_美国->🇧🇷_BR_巴西
       - _US_美国
-      - _GB_英国
-      - _PK_巴基斯坦
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国->🇸🇦_SA_沙特阿拉伯
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - 🔰 2023-10-30-15
+      - 🔰 2023-10-31-15
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _DE_德国
+      - _US_美国->🇧🇷_BR_巴西
       - _US_美国
-      - _GB_英国
-      - _PK_巴基斯坦
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国->🇸🇦_SA_沙特阿拉伯
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,14 +148,18 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🔰 2023-10-30-15
+      - 🔰 2023-10-31-15
       - 🎯 全球直连
       - ♻️ 自动选择
+      - _DE_德国
+      - _US_美国->🇧🇷_BR_巴西
       - _US_美国
-      - _GB_英国
-      - _PK_巴基斯坦
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇮🇳_IN_印度
+      - _US_美国->🇩🇪_DE_德国
       - _US_美国 2
+      - _US_美国->🇮🇳_IN_印度 2
+      - _US_美国->🇸🇦_SA_沙特阿拉伯
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -9402,444 +9438,444 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23c::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2a0a:f280::/32,📲 电报信息,no-resolve
-  - DOMAIN-SUFFIX,9cache.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,9gag.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,abc.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,anchor.fm,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,archive.fo,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,archive.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,archive.ph,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,archiveofourown.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,artstation.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,ask.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,avg.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,axios.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bandcamp.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bandwagonhost.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bbc.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,behance.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bit.ly,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bloglovin.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,blubrry.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,box.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,brave.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bullguard.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,castbox.fm,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,change.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,cloudcone.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,clyp.it,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,cna.com.tw,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,conoha.jp,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,coursehero.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,c-span.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,dailymotion.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,daum.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,deadline.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,depositphotos.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,deviantart.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,deviantart.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,disconnect.me,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,disqus.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,dlive.tv,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,dowjones.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,duckduckgo.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,earthcam.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,edx-cdn.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,encyclopedia.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,feeder.co,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,feedly.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,flickr.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,flipboard.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,flitto.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,foreignaffairs.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,foreignpolicy.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,ft.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,ftchinese.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,ftimg.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,genius.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,getsync.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,gfw.report,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,git.io,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,githack.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,graphql.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,hackmd.io,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,heroku.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,hket.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,huffpost.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,i-cable.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,imgur.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,independent.co.uk,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,inoreader.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,is.gd,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,issuu.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,istockphoto.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,justpaste.it,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,kakao.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,kobo.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,listennotes.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,livestream.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,mailchimp.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,matrix.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,medibang.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,medium.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,mega.co.nz,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,mega.io,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,mega.nz,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,mixlr.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,moon.fm,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,mubi.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,myspace.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,myspacecdn.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,nbcnews.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,neowin.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,newstatesman.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,newsweek.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,newyorker.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,now.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,ok.ru,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,omny.fm,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,openvpn.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,owltail.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,oxfordscholarship.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,parsevideo.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,paste.ee,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,pastie.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,pcloud.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,peing.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,player.fm,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,podbean.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,prism-break.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,privoxy.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,proxifier.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,quora.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,quoracdn.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,qz.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,radioline.co,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,reabble.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,redditlist.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,resilio.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,rsshub.app,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,rthk.hk,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,scmp.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,scribd.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,search.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,shutterstock.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,signal.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,sketchappsources.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,slideshare.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,smartmailcloud.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,smh.com.au,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,speakerdeck.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,spideroak.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,spiegel.de,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,startpage.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,steemit.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,straitstimes.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,streamable.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,substack.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,swissinfo.ch,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tapatalk.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,techspot.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,textnow.me,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,theage.com.au,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,theatlantic.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,theaustralian.com.au,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,theconversation.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,thediplomat.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,theguardian.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,theinitium.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,themoviedb.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,thetvdb.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,time.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tineye.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tiny.cc,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,torproject.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tradingview.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,turbobit.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tutanota.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,urbandictionary.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,ustream.tv,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,v2ex.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,venturebeat.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,viber.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,vimeo.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,voxer.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,vzw.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,washingtonpost.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wattpad.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,welt.de,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,whoer.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikimapia.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikiwand.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wire.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wireguard.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wn.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,worldcat.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wsj.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wsj.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,x.co,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,yandex.ru,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,you-get.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,zaobao.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,zello.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,zeronet.io,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,z-lib.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,zophar.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,zyxel.com,🔰 2023-10-30-15
-  - DOMAIN,lab.skk.moe,🔰 2023-10-30-15
-  - DOMAIN,ocsp.int-x3.letsencrypt.org,🔰 2023-10-30-15
-  - DOMAIN,a248.e.akamai.net,🔰 2023-10-30-15
-  - DOMAIN,a771.dscq.akamai.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,amazon.co.jp,🔰 2023-10-30-15
-  - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 2023-10-30-15
-  - DOMAIN,payments-jp.amazon.com,🔰 2023-10-30-15
-  - DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰 2023-10-30-15
-  - DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,abc.xyz,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,admob.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,adsense.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,advertisercommunity.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,ampproject.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,android.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,androidify.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,androidtv.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,api.ai,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,apigee.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,appspot.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,blogblog.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,blogger.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,chrome.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,chromium.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,debug.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,dialogflow.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,feedburner.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,firebaseio.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,g.co,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,getoutline.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,ggpht.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,gmail.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,gmodules.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,gvt0.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,gvt1.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,gvt3.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,itasoftware.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,on2.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,recaptcha.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,schema.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tensorflow.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tenor.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tfhub.dev,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tiltbrush.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,waymo.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,web.dev,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,webmproject.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,webrtc.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,widevine.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,zynamics.com,🔰 2023-10-30-15
-  - DOMAIN-KEYWORD,google,🔰 2023-10-30-15
-  - DOMAIN-KEYWORD,.blogspot.,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,goog,🔰 2023-10-30-15
-  - DOMAIN,testflight.apple.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,gravatar.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tumblr.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,videopress.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wordpress.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bloomberg.cn,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bloomberg.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bloomberg.de,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bloombergview.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,clubhouseapi.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,joinclubhouse.com,🔰 2023-10-30-15
-  - DOMAIN,clubhouse.pubnubapi.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,aex.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bibox.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,binance.cc,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,binance.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,binance.me,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,binance.us,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bitcointalk.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bitfinex.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bithumb.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bitmex.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bitstamp.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bittrex.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bybit.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,coinbase.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,coincheck.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,coingecko.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,coinmarketcap.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,coinone.co.kr,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,etherscan.io,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,ftx.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,gate.io,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,gemini.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,huobi.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,korbit.co.kr,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,kraken.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,kucoin.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,liquid.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,okex.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,okx.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,poloniex.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,sushi.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,uniswap.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,zb.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,discord.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,discordapp.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,discordapp.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,dropbox.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,dropboxapi.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,dropboxusercontent.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,freetls.fastly.net,🔰 2023-10-30-15
-  - DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net,🔰 2023-10-30-15
-  - DOMAIN,github.global.ssl.fastly.net,🔰 2023-10-30-15
-  - DOMAIN,nytimes.map.fastly.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,line.me,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,line-apps.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,line-scdn.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,naver.jp,🔰 2023-10-30-15
-  - IP-CIDR,103.2.30.0/23,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,125.209.208.0/20,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,147.92.128.0/17,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,203.104.144.0/21,🔰 2023-10-30-15,no-resolve
-  - DOMAIN-SUFFIX,accountkit.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,cdninstagram.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,f8.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,facebookmail.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,fb.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,fb.me,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,fb.watch,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,fbaddins.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,fbcdn.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,fbsbx.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,fbworkmail.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,instagram.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,m.me,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,messenger.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,oculus.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,oculuscdn.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,readyatdawn.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,rocksdb.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,whatsapp.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,whatsapp.net,🔰 2023-10-30-15
-  - DOMAIN-KEYWORD,.facebook.,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,aka.ms,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,github.blog,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,github.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,github.io,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,githubassets.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,githubusercontent.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,onedrive.live.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,streaming.mediaservices.windows.net,🔰 2023-10-30-15
-  - DOMAIN,assets1.xboxlive.com,🔰 2023-10-30-15
-  - DOMAIN,assets2.xboxlive.com,🔰 2023-10-30-15
-  - DOMAIN,az416426.vo.msecnd.net,🔰 2023-10-30-15
-  - DOMAIN,az668014.vo.msecnd.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,pinimg.com,🔰 2023-10-30-15
-  - DOMAIN-KEYWORD,.pinterest.,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,pixiv.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,pixiv.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,pximg.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,redd.it,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,reddit.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,redditmedia.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,redditstatic.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,reuters.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,reutersmedia.net,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,steamcommunity.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,legra.ph,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,t.me,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tdesktop.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,telegra.ph,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,telegram.me,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,telegram.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,telesco.pe,🔰 2023-10-30-15
-  - IP-CIDR,91.108.4.0/22,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,91.108.8.0/22,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,91.108.12.0/22,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,91.108.16.0/22,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,91.108.20.0/22,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,91.108.56.0/22,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,91.105.192.0/23,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,149.154.160.0/20,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR,185.76.151.0/24,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR6,2001:b28:f23c::/48,🔰 2023-10-30-15,no-resolve
-  - IP-CIDR6,2a0a:f280::/32,🔰 2023-10-30-15,no-resolve
-  - DOMAIN-SUFFIX,economist.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,static-economist.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,newyorktimes.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,nyt.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,nytco.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,nytimes.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,nytimg.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,nytlog.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,nytstyle.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tmagazine.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,periscope.tv,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,pscp.tv,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,t.co,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,tweetdeck.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,twimg.co,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,twimg.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,twitpic.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,twitter.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,twitter.jp,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,vine.co,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,mediawiki.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikibooks.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikidata.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikileaks.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikimedia.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikimediafoundation.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikinews.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikipedia.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikiquote.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikisource.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikiversity.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wikivoyage.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,wiktionary.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,yahoo.com,🔰 2023-10-30-15
-  - DOMAIN,search.yahoo.co.jp,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,yadi.sk,🔰 2023-10-30-15
-  - DOMAIN,disk.yandex.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,aicoin.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,aimoon.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,engadget.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,ifixit.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,terabox.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,zaobao.com.sg,🔰 2023-10-30-15
-  - DOMAIN,addons.mozilla.org,🔰 2023-10-30-15
-  - DOMAIN,wego.here.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,go.dev,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,golang.org,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,appsto.re,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,smoot.apple.com,🔰 2023-10-30-15
-  - DOMAIN,amp-api.podcasts.apple.com,🔰 2023-10-30-15
-  - DOMAIN,beta.music.apple.com,🔰 2023-10-30-15
-  - DOMAIN,books.itunes.apple.com,🔰 2023-10-30-15
-  - DOMAIN,lookup-api.apple.com,🔰 2023-10-30-15
-  - DOMAIN,radio.itunes.apple.com,🔰 2023-10-30-15
-  - DOMAIN,apps.apple.com,🔰 2023-10-30-15
-  - DOMAIN,books.apple.com,🔰 2023-10-30-15
-  - DOMAIN,itunes.apple.com,🔰 2023-10-30-15
-  - DOMAIN,tv.apple.com,🔰 2023-10-30-15
-  - DOMAIN,gateway.icloud.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,apple.news,🔰 2023-10-30-15
-  - DOMAIN,news-assets.apple.com,🔰 2023-10-30-15
-  - DOMAIN,news-client.apple.com,🔰 2023-10-30-15
-  - DOMAIN,news-client-search.apple.com,🔰 2023-10-30-15
-  - DOMAIN,news-edge.apple.com,🔰 2023-10-30-15
-  - DOMAIN,news-events.apple.com,🔰 2023-10-30-15
-  - DOMAIN,apple.comscoreresearch.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,bing.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,linkedin.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,licdn.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,msn.com,🔰 2023-10-30-15
-  - DOMAIN-SUFFIX,skype.com,🔰 2023-10-30-15
+  - DOMAIN-SUFFIX,9cache.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,9gag.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,abc.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,anchor.fm,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,archive.fo,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,archive.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,archive.ph,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,archiveofourown.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,artstation.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,ask.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,avg.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,axios.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bandcamp.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bandwagonhost.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bbc.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,behance.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bit.ly,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bloglovin.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,blubrry.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,box.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,brave.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bullguard.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,castbox.fm,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,change.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,cloudcone.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,clyp.it,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,cna.com.tw,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,conoha.jp,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,coursehero.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,c-span.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,dailymotion.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,daum.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,deadline.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,depositphotos.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,deviantart.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,deviantart.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,disconnect.me,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,disqus.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,dlive.tv,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,dowjones.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,duckduckgo.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,earthcam.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,edx-cdn.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,encyclopedia.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,feeder.co,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,feedly.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,flickr.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,flipboard.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,flitto.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,foreignaffairs.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,foreignpolicy.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,ft.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,ftchinese.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,ftimg.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,genius.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,getsync.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,gfw.report,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,git.io,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,githack.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,graphql.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,hackmd.io,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,heroku.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,hket.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,huffpost.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,i-cable.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,imgur.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,independent.co.uk,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,inoreader.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,is.gd,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,issuu.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,istockphoto.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,justpaste.it,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,kakao.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,kobo.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,listennotes.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,livestream.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,mailchimp.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,matrix.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,medibang.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,medium.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,mega.co.nz,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,mega.io,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,mega.nz,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,mixlr.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,moon.fm,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,mubi.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,myspace.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,myspacecdn.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,nbcnews.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,neowin.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,newstatesman.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,newsweek.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,newyorker.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,now.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,ok.ru,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,omny.fm,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,openvpn.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,owltail.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,oxfordscholarship.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,parsevideo.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,paste.ee,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,pastie.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,pcloud.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,peing.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,player.fm,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,podbean.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,prism-break.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,privoxy.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,proxifier.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,quora.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,quoracdn.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,qz.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,radioline.co,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,reabble.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,redditlist.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,resilio.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,rsshub.app,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,rthk.hk,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,scmp.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,scribd.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,search.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,shutterstock.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,signal.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,sketchappsources.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,slideshare.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,smartmailcloud.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,smh.com.au,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,speakerdeck.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,spideroak.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,spiegel.de,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,startpage.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,steemit.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,straitstimes.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,streamable.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,substack.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,swissinfo.ch,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tapatalk.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,techspot.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,textnow.me,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,theage.com.au,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,theatlantic.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,theaustralian.com.au,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,theconversation.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,thediplomat.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,theguardian.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,theinitium.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,themoviedb.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,thetvdb.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,time.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tineye.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tiny.cc,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,torproject.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tradingview.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,turbobit.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tutanota.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,urbandictionary.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,ustream.tv,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,v2ex.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,venturebeat.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,viber.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,vimeo.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,voxer.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,vzw.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,washingtonpost.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wattpad.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,welt.de,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,whoer.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikimapia.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikiwand.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wire.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wireguard.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wn.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,worldcat.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wsj.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wsj.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,x.co,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,yandex.ru,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,you-get.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,zaobao.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,zello.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,zeronet.io,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,z-lib.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,zophar.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,zyxel.com,🔰 2023-10-31-15
+  - DOMAIN,lab.skk.moe,🔰 2023-10-31-15
+  - DOMAIN,ocsp.int-x3.letsencrypt.org,🔰 2023-10-31-15
+  - DOMAIN,a248.e.akamai.net,🔰 2023-10-31-15
+  - DOMAIN,a771.dscq.akamai.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,amazon.co.jp,🔰 2023-10-31-15
+  - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 2023-10-31-15
+  - DOMAIN,payments-jp.amazon.com,🔰 2023-10-31-15
+  - DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰 2023-10-31-15
+  - DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,abc.xyz,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,admob.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,adsense.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,advertisercommunity.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,ampproject.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,android.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,androidify.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,androidtv.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,api.ai,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,apigee.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,appspot.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,blogblog.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,blogger.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,chrome.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,chromium.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,debug.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,dialogflow.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,feedburner.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,firebaseio.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,g.co,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,getoutline.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,ggpht.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,gmail.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,gmodules.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,gvt0.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,gvt1.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,gvt3.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,itasoftware.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,on2.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,recaptcha.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,schema.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tensorflow.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tenor.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tfhub.dev,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tiltbrush.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,waymo.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,web.dev,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,webmproject.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,webrtc.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,widevine.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,zynamics.com,🔰 2023-10-31-15
+  - DOMAIN-KEYWORD,google,🔰 2023-10-31-15
+  - DOMAIN-KEYWORD,.blogspot.,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,goog,🔰 2023-10-31-15
+  - DOMAIN,testflight.apple.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,gravatar.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tumblr.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,videopress.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wordpress.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bloomberg.cn,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bloomberg.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bloomberg.de,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bloombergview.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,clubhouseapi.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,joinclubhouse.com,🔰 2023-10-31-15
+  - DOMAIN,clubhouse.pubnubapi.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,aex.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bibox.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,binance.cc,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,binance.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,binance.me,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,binance.us,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bitcointalk.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bitfinex.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bithumb.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bitmex.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bitstamp.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bittrex.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bybit.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,coinbase.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,coincheck.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,coingecko.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,coinmarketcap.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,coinone.co.kr,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,etherscan.io,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,ftx.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,gate.io,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,gemini.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,huobi.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,korbit.co.kr,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,kraken.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,kucoin.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,liquid.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,okex.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,okx.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,poloniex.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,sushi.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,uniswap.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,zb.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,discord.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,discordapp.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,discordapp.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,dropbox.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,dropboxapi.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,dropboxusercontent.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,freetls.fastly.net,🔰 2023-10-31-15
+  - DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net,🔰 2023-10-31-15
+  - DOMAIN,github.global.ssl.fastly.net,🔰 2023-10-31-15
+  - DOMAIN,nytimes.map.fastly.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,line.me,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,line-apps.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,line-scdn.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,naver.jp,🔰 2023-10-31-15
+  - IP-CIDR,103.2.30.0/23,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,125.209.208.0/20,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,147.92.128.0/17,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,203.104.144.0/21,🔰 2023-10-31-15,no-resolve
+  - DOMAIN-SUFFIX,accountkit.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,cdninstagram.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,f8.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,facebookmail.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,fb.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,fb.me,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,fb.watch,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,fbaddins.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,fbcdn.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,fbsbx.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,fbworkmail.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,instagram.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,m.me,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,messenger.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,oculus.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,oculuscdn.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,readyatdawn.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,rocksdb.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,whatsapp.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,whatsapp.net,🔰 2023-10-31-15
+  - DOMAIN-KEYWORD,.facebook.,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,aka.ms,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,github.blog,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,github.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,github.io,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,githubassets.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,githubusercontent.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,onedrive.live.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,streaming.mediaservices.windows.net,🔰 2023-10-31-15
+  - DOMAIN,assets1.xboxlive.com,🔰 2023-10-31-15
+  - DOMAIN,assets2.xboxlive.com,🔰 2023-10-31-15
+  - DOMAIN,az416426.vo.msecnd.net,🔰 2023-10-31-15
+  - DOMAIN,az668014.vo.msecnd.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,pinimg.com,🔰 2023-10-31-15
+  - DOMAIN-KEYWORD,.pinterest.,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,pixiv.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,pixiv.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,pximg.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,redd.it,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,reddit.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,redditmedia.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,redditstatic.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,reuters.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,reutersmedia.net,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,steamcommunity.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,legra.ph,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,t.me,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tdesktop.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,telegra.ph,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,telegram.me,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,telegram.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,telesco.pe,🔰 2023-10-31-15
+  - IP-CIDR,91.108.4.0/22,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,91.108.8.0/22,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,91.108.12.0/22,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,91.108.16.0/22,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,91.108.20.0/22,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,91.108.56.0/22,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,91.105.192.0/23,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,149.154.160.0/20,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR,185.76.151.0/24,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR6,2001:b28:f23c::/48,🔰 2023-10-31-15,no-resolve
+  - IP-CIDR6,2a0a:f280::/32,🔰 2023-10-31-15,no-resolve
+  - DOMAIN-SUFFIX,economist.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,static-economist.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,newyorktimes.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,nyt.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,nytco.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,nytimes.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,nytimg.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,nytlog.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,nytstyle.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tmagazine.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,periscope.tv,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,pscp.tv,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,t.co,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,tweetdeck.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,twimg.co,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,twimg.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,twitpic.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,twitter.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,twitter.jp,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,vine.co,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,mediawiki.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikibooks.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikidata.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikileaks.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikimedia.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikimediafoundation.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikinews.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikipedia.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikiquote.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikisource.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikiversity.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wikivoyage.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,wiktionary.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,yahoo.com,🔰 2023-10-31-15
+  - DOMAIN,search.yahoo.co.jp,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,yadi.sk,🔰 2023-10-31-15
+  - DOMAIN,disk.yandex.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,aicoin.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,aimoon.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,engadget.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,ifixit.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,terabox.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,zaobao.com.sg,🔰 2023-10-31-15
+  - DOMAIN,addons.mozilla.org,🔰 2023-10-31-15
+  - DOMAIN,wego.here.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,go.dev,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,golang.org,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,appsto.re,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,smoot.apple.com,🔰 2023-10-31-15
+  - DOMAIN,amp-api.podcasts.apple.com,🔰 2023-10-31-15
+  - DOMAIN,beta.music.apple.com,🔰 2023-10-31-15
+  - DOMAIN,books.itunes.apple.com,🔰 2023-10-31-15
+  - DOMAIN,lookup-api.apple.com,🔰 2023-10-31-15
+  - DOMAIN,radio.itunes.apple.com,🔰 2023-10-31-15
+  - DOMAIN,apps.apple.com,🔰 2023-10-31-15
+  - DOMAIN,books.apple.com,🔰 2023-10-31-15
+  - DOMAIN,itunes.apple.com,🔰 2023-10-31-15
+  - DOMAIN,tv.apple.com,🔰 2023-10-31-15
+  - DOMAIN,gateway.icloud.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,apple.news,🔰 2023-10-31-15
+  - DOMAIN,news-assets.apple.com,🔰 2023-10-31-15
+  - DOMAIN,news-client.apple.com,🔰 2023-10-31-15
+  - DOMAIN,news-client-search.apple.com,🔰 2023-10-31-15
+  - DOMAIN,news-edge.apple.com,🔰 2023-10-31-15
+  - DOMAIN,news-events.apple.com,🔰 2023-10-31-15
+  - DOMAIN,apple.comscoreresearch.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,bing.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,linkedin.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,licdn.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,msn.com,🔰 2023-10-31-15
+  - DOMAIN-SUFFIX,skype.com,🔰 2023-10-31-15
   - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
