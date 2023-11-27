@@ -2,7 +2,7 @@ name: clashnode_raw 更新
 on:
   schedule:
     # 每天东八区23点30执行一次
-    - cron:  30 15 * * *
+    # - cron:  30 15 * * *
   workflow_dispatch:
 
 jobs:
